@@ -1,0 +1,1645 @@
+<html id="sitmax" lang="es" class="csstransforms csstransforms3d csstransitions js flexbox flexboxlegacy canvas canvastext postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache"><head>
+        <title>Gestión catastral</title>
+        
+
+<!-- ICG - S.R.L. - International Consulting Group  2015 --> 
+<!-- Control de escenario v1.0 --> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/bootstrap.min.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/font-awesome.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/se7en-font.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/isotope.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/jquery.fancybox.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/fullcalendar.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/wizard.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/select2.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/morris.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/datatables.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/dataTables.tableTools.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/buttons.dataTables.min.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/datepicker.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/timepicker.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/colorpicker.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/bootstrap-switch.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/daterange-picker.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/typeahead.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/summernote.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<link href="/geo/css/7ven/pygments.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+<!-- examples main -->
+<link href="/geo/css/7ven/style.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+
+<link href="/geo/css/7ven/color/green.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="alternate stylesheet" title="green-theme" type="text/css">
+
+<link href="/geo/css/7ven/color/orange.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="alternate stylesheet" title="orange-theme" type="text/css">
+<link href="/geo/css/7ven/color/magenta.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="alternate stylesheet" title="magenta-theme" type="text/css">
+<link href="/geo/css/7ven/color/gray.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="alternate stylesheet" title="gray-theme" type="text/css">
+<link href="/geo/css/7ven/bootstrap-dialog.min.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="alternate stylesheet" title="gray-theme" type="text/css">
+<link href="/geo/css/7ven/jquery.typeahead.min.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" media="all" rel="stylesheet" type="text/css">
+
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+<script src="/geo/js/7ven/jquery-1.11.3.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/moment.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/fullcalendar.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery-ui.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<!--<script src="/geo/js/7ven/bootstrap.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>-->
+<script src="/geo/js/7ven/bootstrap-3.1.0.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>-->
+
+<script src="/geo/js/7ven/raphael.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/selectivizr-min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.mousewheel.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.vmap.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.vmap.sampledata.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.vmap.world.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.bootstrap.wizard.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+
+<script src="/geo/js/7ven/gcal.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/bootstrap/jquery.dataTables.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/datatable-editable.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/dataTables.tableTools.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.easy-pie-chart.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/excanvas.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.isotope.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/isotope_extras.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/modernizr.custom.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.fancybox.pack.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/select2.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/styleswitcher.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/wysiwyg.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/summernote.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.inputmask.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.validate.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/bootstrap-fileupload.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/bootstrap-datepicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/bootstrap-timepicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/bootstrap-colorpicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/bootstrap-switch.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/typeahead.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/daterange-picker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/date.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/morris.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/skycons.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/fitvids.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.sparkline.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/main.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/respond.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/es.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+
+
+<script src="/geo/js/bootstrap/jquery.responsive-tabs.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/bootstrap/jquery.backTop.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+
+<script src="/geo/js/7ven/bootstrap-dialog.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+
+<link href="/geo/css/bootstrap/backTop.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" rel="stylesheet" type="text/css">
+<link href="/geo/css/bootstrap/sitmax-tabs.css;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" rel="stylesheet" type="text/css">
+
+<link href="/geo/css/lightbox.css" rel="stylesheet">
+<script src="/geo/js/lightbox.min.js" type="text/javascript"></script>
+<script src="/geo/js/7ven/JqueryRotate/jquery-rotate.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+<script src="/geo/js/7ven/jquery.typeahead.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" type="text/javascript"></script>
+
+
+ 
+        
+       
+<!-- GIS UI libraries 2015 --> 
+<script src="/openlayers-2.12/lib/OpenLayers.js" type="text/javascript"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Class.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Util.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Animation.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Bounds.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Date.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Element.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/LonLat.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Pixel.js"></script><script src="/openlayers-2.12/lib/OpenLayers/BaseTypes/Size.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Console.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Tween.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Kinetic.js"></script><script src="/openlayers-2.12/lib/Rico/Corner.js"></script><script src="/openlayers-2.12/lib/Rico/Color.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Events.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Events/buttonclick.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Request.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Request/XMLHttpRequest.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Projection.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Map.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Icon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Marker.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Marker/Box.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Popup.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Tile.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Tile/Image.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Tile/Image/IFrame.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Tile/UTFGrid.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Image.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/SphericalMercator.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/EventPane.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/FixedZoomLevels.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Google.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Google/v3.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/HTTPRequest.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Grid.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/MapGuide.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/MapServer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/KaMap.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/KaMapCache.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Markers.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Text.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/WorldWind.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/ArcGIS93Rest.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/WMS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/WMTS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/ArcIMS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/GeoRSS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Boxes.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/XYZ.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/UTFGrid.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/OSM.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Bing.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/TMS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/TileCache.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Zoomify.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/ArcGISCache.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Popup/Anchored.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Popup/AnchoredBubble.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Popup/Framed.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Popup/FramedCloud.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Feature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Feature/Vector.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Click.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Hover.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Point.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Path.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Polygon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Feature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Drag.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Pinch.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/RegularPolygon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Box.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/MouseWheel.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Handler/Keyboard.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Attribution.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Button.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/CacheRead.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/CacheWrite.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/ZoomBox.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/ZoomToMaxExtent.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/DragPan.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Navigation.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/PinchZoom.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/TouchNavigation.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/MousePosition.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/OverviewMap.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/KeyboardDefaults.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/PanZoom.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/PanZoomBar.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/ArgParser.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Permalink.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Scale.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/ScaleLine.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Snapping.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Split.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/LayerSwitcher.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/DrawFeature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/DragFeature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/ModifyFeature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Panel.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/SelectFeature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/NavigationHistory.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Measure.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/WMSGetFeatureInfo.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/WMTSGetFeatureInfo.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Graticule.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/TransformFeature.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/UTFGrid.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/SLDSelect.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Control/Zoom.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/Collection.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/Point.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/MultiPoint.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/Curve.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/LineString.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/LinearRing.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/Polygon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/MultiLineString.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Geometry/MultiPolygon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Renderer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Renderer/Elements.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Renderer/SVG.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Renderer/Canvas.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Renderer/VML.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Vector.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/PointGrid.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/Vector/RootContainer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Filter.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Fixed.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Cluster.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Paging.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/BBOX.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Save.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Strategy/Refresh.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter/FeatureId.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter/Logical.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter/Comparison.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter/Spatial.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Filter/Function.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/HTTP.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/WFS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/WFS/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/WFS/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/WFS/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/CSW.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/CSW/v2_0_2.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/Script.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/SOS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Protocol/SOS/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Layer/PointTrack.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Style.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Style2.js"></script><script src="/openlayers-2.12/lib/OpenLayers/StyleMap.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Rule.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/QueryStringFilter.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/XML.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/XML/VersionedOGC.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Context.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/ArcXML.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/ArcXML/Features.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GML.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GML/Base.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GML/v2.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GML/v3.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Atom.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/KML.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GeoRSS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFS.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFSCapabilities.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFSCapabilities/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFSCapabilities/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFSCapabilities/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFSDescribeFeatureType.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSDescribeLayer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSDescribeLayer/v1_1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WKT.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/CQL.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OSM.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GPX.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Filter.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Filter/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Filter/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Filter/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/SLD.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/SLD/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/SLD/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/SLD/v1_0_0_GeoServer.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/OWSCommon/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/CSWGetDomain.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/CSWGetDomain/v2_0_2.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/CSWGetRecords.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/CSWGetRecords/v2_0_2.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFST.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFST/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFST/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WFST/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/Text.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/JSON.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/GeoJSON.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMC.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMC/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMC/v1_0_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMC/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WCSGetCoverage.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_1_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_1_1.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_3.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_3_0.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSCapabilities/v1_1_1_WMSC.js"></script><script src="/openlayers-2.12/lib/OpenLayers/Format/WMSGetFeatureInfo.js"></script><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WMSGetFeatureInfo.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/SOSCapabilities.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/SOSCapabilities/v1_0_0.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/SOSGetFeatureOfInterest.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/SOSGetObservation.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/OWSContext.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/OWSContext/v0_3_1.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WMTSCapabilities.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WMTSCapabilities/v1_0_0.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WPSCapabilities.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WPSCapabilities/v1_0_0.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WPSDescribeProcess.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/WPSExecute.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/XLS.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/XLS/v1.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/XLS/v1_1_0.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Format/OGCExceptionReport.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/GetFeature.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/NavToolbar.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/PanPanel.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/Pan.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/ZoomIn.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/ZoomOut.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/ZoomPanel.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/EditingToolbar.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Control/Geolocate.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer/Point.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer/Line.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer/Polygon.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer/Text.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Symbolizer/Raster.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Lang.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Lang/en.js"></script>--><!--<script src="/openlayers-2.12/lib/OpenLayers/Spherical.js"></script>-->
+<!--<script type="text/javascript" src="/geo/js/proj4js-compressed.min.js"></script>-->
+<!--<script type="text/javascript" src="/geoserver/pdf/info.json?var=printCapabilities"></script>-->
+<!--<script type="text/javascript">
+    Ext = new Object();
+</script>-->
+<!--<script type="text/javascript" src="/geo/catastral/layers/geoserverlocation;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></script>-->
+<!--<script type="text/javascript">
+    /**
+     * Principal GIS Server params config
+     * Santa FE, 2015
+     */
+    Proj4js.defs["EPSG:32720"] = "+proj=utm +zone=20 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
+    Proj4js.defs["EPSG:22185"] = "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";
+    Ext.geoProjection = "EPSG:32720";
+
+    var geoBounds = new OpenLayers.Bounds(
+                    710973.62771, 6492034.366280001,
+                    730732.5023500001, 6507370.790800001
+                );
+
+    Ext.geoOptions = {
+        maxExtent: geoBounds,
+        resolutions: [
+                19.29577601562505,
+                9.647888007812526,
+                4.823944003906263,
+                2.4119720019531314,
+                1.2059860009765657,
+                0.6029930004882829,
+                0.3014965002441414,
+                0.1507482501220707
+        ],
+        maxResolution: 19.29577601562505,
+        minResolution: 0.1507482501220707,
+        numZoomLevels: 8,
+        displayOutsideMaxExtent: true,
+        buffer: 0,
+        yx : {'EPSG:32720' : false},
+        projection: new OpenLayers.Projection(Ext.geoProjection),
+        units: 'm'
+    };
+
+    Ext.localProxy = '/http_proxy/proxy?url=';
+</script>-->
+<!--<script type="text/javascript" src="/geo/catastral/layers/layerslist;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></script>-->
+<!-- Map view app V1.0-->
+<!--<script type="text/javascript">
+    var domain = new Object();
+    domain.objects = {
+        proxy: Ext.localProxy,
+        geoserverUrl: Ext.geoserverUrl,
+        options: Ext.geoOptions,
+        projection: Ext.geoProjection,
+        mapa: function (options) {
+            OpenLayers.ProxyHost = domain.objects.proxy;
+            var map = new OpenLayers.Map("map", domain.objects.options);
+
+            var alayers = new Array();
+            //BaseLayers
+            //for (var i in _sg__baselayers) {
+            for (var i = 0; i < _sg__baselayers.length; i++) {
+                var ldata = _sg__baselayers[i];
+                /*if (ldata.layer == 'sf_completo'){
+                    ldata.server = "http://10.20.0.95:8090/geoserver/gwc/service/wms";
+                    ldata.layer = 'sitmax:sf_completo';
+                    ldata.format = 'image/jpeg';
+                    ldata.projection = "EPSG:32720"
+                }*/
+                var l = new OpenLayers.Layer.WMS(ldata.name,
+                        (ldata.server)?ldata.server:domain.objects.geoserverUrl,
+                        {layers: ldata.layer,
+                            format: (ldata.format)?ldata.format:'image/jpeg'
+                        },
+                {
+                    isBaseLayer: true,
+                    projection: (ldata.projection)?ldata.projection:'EPSG:32720',
+                    ratio: 2,
+                    buffer: 0,
+                    displayOutsideMaxExtent: true
+                });
+                alayers.push(l);
+            }
+
+            //OverLays
+            //for (var i in _sg__overLayers) {
+            for (var i = 0; i < _sg__overLayers.length; i++) {
+                var ldata = _sg__overLayers[i];
+                var l = new OpenLayers.Layer.WMS(ldata.name,
+                        domain.objects.geoserverUrl,
+                        {layers: ldata.layer,
+                            transparent: true,
+                            format: 'image/png'
+                        },
+                {
+                    isBaseLayer: false,
+                    projection: "EPSG:32720",
+                    visibility: false,
+                    singleTile: true,
+                });
+                alayers.push(l);
+            }
+
+            //Map layers
+            map.addLayers(alayers);
+
+            //Work layers: canvas & objectselected
+            this.canvas = new OpenLayers.Layer.Vector("canvas", {
+                displayInLayerSwitcher: false,
+                styleMap: domain.objects.styles
+            });
+            map.addLayer(this.canvas);
+            this.objectselected = new OpenLayers.Layer.Vector("objectselected", {
+                displayInLayerSwitcher: false
+            });
+            map.addLayer(this.objectselected);
+
+            map.addControl(new OpenLayers.Control.MousePosition());
+            var predio = new OpenLayers.Layer.WMS("Parcelas",
+                    domain.objects.geoserverUrl,
+                    {layers: 'parcela',
+                        transparent: true,
+                        format: 'image/png'
+                    },
+            {
+                isBaseLayer: false,
+                projection: domain.objects.projection,
+                visibility: true
+            });
+
+            //WMSGetFeatureInfo Control for Parcela
+            var control = new OpenLayers.Control.WMSGetFeatureInfo({
+                url: domain.objects.geoserverUrl,
+                title: 'Identify features by clicking',
+                autoActivate: true,
+                infoFormat: "application/vnd.ogc.gml",
+                maxFeatures: 1,
+                layers: [predio]
+            });
+            var winfo = null;
+            if (options) {
+                control.events.on({
+                    getfeatureinfo: options.selectfn
+                });
+
+                map.addControl(control);
+                domain.objects.control = control;
+            }
+            if (!map.getCenter()) {
+                map.zoomToMaxExtent();
+            }
+            return map;
+        },
+        styles: new OpenLayers.StyleMap({
+            "default": new OpenLayers.Style(null, {
+                rules: [
+                    new OpenLayers.Rule({
+                        symbolizer: {
+                            "Point": {
+                                pointRadius: 5,
+                                fillColor: "#66FF33",
+                                fillOpacity: 0.25,
+                                strokeWidth: 2,
+                                strokeOpacity: 1,
+                                strokeColor: "#33CC33"
+                            },
+                            "Line": {
+                                strokeWidth: 5,
+                                strokeOpacity: 0.7,
+                                strokeColor: "#FF9900"
+                            },
+                            "Polygon": {
+                                strokeWidth: 2,
+                                strokeOpacity: 1, fillColor: "#66FF33",
+                                strokeColor: "#33CC33"
+                            }
+                        }
+                    })
+                ]
+            }),
+            "select": new OpenLayers.Style(null, {
+                rules: [
+                    new OpenLayers.Rule({
+                        symbolizer: {
+                            "Point": {
+                                pointRadius: 5,
+                                graphicName: "square",
+                                fillColor: "red",
+                                fillOpacity: 0.25,
+                                strokeWidth: 2,
+                                strokeOpacity: 1,
+                                strokeColor: "#0000ff"
+                            },
+                            "Line": {
+                                strokeWidth: 3,
+                                strokeOpacity: 1,
+                                strokeColor: "#0000ff"
+                            },
+                            "Polygon": {
+                                strokeWidth: 2,
+                                strokeOpacity: 1,
+                                fillColor: "#0000ff",
+                                strokeColor: "#0000ff"
+                            }
+                        }
+                    })
+                ]
+            }),
+            "temporary": new OpenLayers.Style(null, {
+                rules: [
+                    new OpenLayers.Rule({
+                        symbolizer: {
+                            "Point": {
+                                pointRadius: 5,
+                                fillColor: "#ff0000",
+                                fillOpacity: 0.25,
+                                strokeWidth: 2,
+                                strokeColor: "#ff0000"
+                            },
+                            "Line": {
+                                strokeWidth: 3,
+                                strokeOpacity: 1,
+                                strokeColor: "#ff0000"
+                            },
+                            "Polygon": {
+                                strokeWidth: 2,
+                                strokeOpacity: 1,
+                                strokeColor: "#ff0000",
+                                fillColor: "#ff0000"
+                            }
+                        }
+                    })
+                ]
+            })
+        }),
+        featureFromText: function (the_geom, attrs) {
+            var feature = new OpenLayers.Feature.Vector(OpenLayers.Geometry.fromWKT(the_geom));
+            return feature;
+        },
+        selectFeature: function (map, feature, zoomto) {
+            var geographic = new OpenLayers.Projection("EPSG:22185");
+            var mercator = new OpenLayers.Projection("EPSG:32720");
+            if(feature.geometry){feature.geometry.transform(geographic, mercator)};
+            this.objectselected.removeAllFeatures();
+            this.objectselected.addFeatures([feature]);
+            if (zoomto) {
+                map.zoomToExtent(feature.geometry.getBounds());
+            }
+        }
+    };
+</script>--> 
+        <!--<script type="text/javascript" src="/geo/catastral/layers/layerslist;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></script>-->      
+        <!--<script type="text/javascript" src="/geo/js/DynamicMeasure.js"></script>-->
+        <!--<script type="text/javascript">             
+            
+                       
+            var layers = new Array();
+            //Overrwrite pam controller
+            domain.objects.mapa = function (options) {
+                OpenLayers.ProxyHost = domain.objects.proxy;
+                var map = new OpenLayers.Map("map", domain.objects.options);
+
+                var alayers = new Array();
+                //BaseLayers
+                for (var i = 0; i < _sg__baselayers.length; i++) {  //Capas bases
+                    var ldata = _sg__baselayers[i];
+                    /*if (ldata.layer == 'sf_completo'){
+                        ldata.server = "http://10.20.0.95:8090/geoserver/gwc/service/wms";
+                        ldata.layer = 'sitmax:sf_completo';
+                        ldata.format = 'image/jpeg';
+                        ldata.projection = "EPSG:32720"
+                    }*/
+                    
+                    var l = new OpenLayers.Layer.WMS(ldata.name,
+                            (ldata.server)?ldata.server:domain.objects.geoserverUrl,
+                            {layers: ldata.layer,
+                                format: (ldata.format)?ldata.format:'image/jpeg'
+                            },
+                    {
+                        isBaseLayer: true,
+                        projection: (ldata.projection)?ldata.projection:'EPSG:32720',
+                        ratio: 2,
+                        buffer: 0,
+                        displayOutsideMaxExtent: true
+                    });
+                    alayers.push(l);
+                }
+
+                //OverLays
+                for (var i = 0; i < _sg__overLayers.length; i++) { //Capas no bases
+                    var ldata = _sg__overLayers[i];
+                    var l = new OpenLayers.Layer.WMS(ldata.name,
+                            domain.objects.geoserverUrl,
+                            {layers: ldata.layer,
+                                transparent: true,
+                                format: 'image/png',
+                                //cql_filter: "layer='R4'" // esto solo para capa distrito_rou
+                            },
+                    {
+                        isBaseLayer: false,
+                        projection: "EPSG:32720",
+                        visibility: false,
+                        singleTile: true,
+                    });
+                    alayers.push(l);
+                }
+
+                //Map layers
+                map.addLayers(alayers);
+                this.objectselected = new OpenLayers.Layer.Vector("objectselected", {
+                    projection: "EPSG:32720",
+                    displayInLayerSwitcher: false
+                });
+                map.addLayer(this.objectselected);
+                //map.addControl(new OpenLayers.Control.MousePosition());
+                //WFS service pro principal entity [parcela]
+                var predio = new OpenLayers.Layer.WMS("Parcelas",
+                        domain.objects.geoserverUrl,
+                        {layers: 'parcela',
+                            transparent: true,
+                            format: 'image/png'
+                        }, {
+                    isBaseLayer: false,
+                    projection: "EPSG:22185",//domain.objects.projection,
+                    visibility: true
+                });
+                //WMSGetFeatureInfo Control for Parcela
+                alayers.push(predio);
+                var control = new OpenLayers.Control.WMSGetFeatureInfo({
+                    url: domain.objects.geoserverUrl,
+                    title: 'Identify features by clicking',
+                    autoActivate: true,
+                    infoFormat: "application/vnd.ogc.gml",
+                    /*maxFeatures: 1,*/
+                    layers: [alayers],
+                    queryVisible: true
+                });
+                alayers.forEach(function(capa){
+                   control.layers.push(capa);
+                });
+                
+                control.events.on({
+                    getfeatureinfo: function (e) {
+                        if (e.features.length > 0) {
+                            var feature = e.features[0];
+//                            var featureDialog = new ModCapasDetail(e.features);
+                            var featureDialog = new ModCapasDetail(e.features);
+                            if (feature !== undefined) {
+                                                            
+                                
+                                     
+                                    
+                                        // Esta linea la agregue para que seleccione la parcela al clik cuando no hay usuarios logueados
+                                        domain.objects.selectFeature(map, feature, true);
+                                        
+                                        if($("#menu-capas").is(":visible")){
+                                            $("#map-col").removeClass("col-lg-12").addClass("col-lg-8");
+                                            $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                                            $("#menu-toggle").show();
+                                            $("#_parcela_details_padron").show();
+                                            $("#_parcela_details").empty();
+                                            $("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                                        }else{
+                                            $("#map-col").removeClass("col-lg-12").addClass("col-lg-8");
+                                            $("#menu-toggle").show();
+                                            $("#_parcela_details_padron").show();
+                                            $("#_parcela_details").empty();
+                                            $("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                                        }   
+                                        $("#menu-capas").hide();
+                                        featureDialog.show();
+                                        
+                                
+                            }
+                        }
+                    }
+                });
+
+                map.addControl(control);
+                domain.objects.control = control;
+
+                if (!map.getCenter()) {
+                    map.zoomToMaxExtent();
+                }
+                return map;
+            }
+            
+                
+                 $(function() {
+                       // $("body").attr('style', "margin-top:0px;padding-top: 0px;");
+                        $("body").attr('style', "margin-top:60px;padding-top: 0px;");
+                 });  
+                                        
+            $(document).ready(function () {  
+//                var map = domain.objects.mapa();
+//                map.zoomTo(4);
+//                map.getView().setZoom(4);
+                
+                $("#menu-toggle").click(function(){                    
+                    $("#map-col").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-toggle").hide();
+                    $("#_parcela_details_padron").hide();
+		});
+                
+                //Overlay Layers                
+                
+                
+                              
+                
+                $("#test_v1").typeahead({                    
+                    order: 'asc',
+                    hint: true,
+                    dynamic: true,
+                    minLength: 1,
+                    maxItem: 20,
+                    emptyTemplate: function(query) {
+                            if (query.length > 0) {
+                                    //return 'No se encuentra "' + query + '"';
+                                    return '' + query + '"';
+                            }
+                    },                                        
+                    template: function (query, item) {                                              
+                        var template = "";
+                        $("#__group").val(item.group);
+                        switch (item.group) {
+                            case 'padron':
+                                template = "{{padron}} <small style='color:#999;'>{{group}}</small>";                                
+                                break;
+                            case 'calle':
+                                template = "{{nombre_via}} <small style='color:#999;'>{{group}}</small>";                                
+                                break;
+                            case 'parcela':
+                                template = "{{parcela}} <small style='color:#999;'>{{group}}</small>";                                
+                            break;
+                            case 'partida':
+                                template = "{{partida}} <small style='color:#999;'>{{group}}</small>";                                
+                            break;
+                            default:
+                                template = "{{padron}} <small style='color:#999;'>{{group}}</small>";    
+                                break;
+                        } 
+                        
+                        return template;  
+                    },                    
+                    source: {                           
+                            padron: {
+                                display: "padron",
+                                ajax: {
+                                    type: "POST",
+                                    url: "/geo/catastral/gestioncatastral/buscarpadronautocomplete",
+                                    dataType: "json",
+                                    path: "data.padron",                                    
+                                    data: {query: "{{query}}"}                                 
+                                }
+                            },
+                            parcela: {
+                                display: "parcela",
+                                ajax: {
+                                    type: "POST",
+                                    url: "/geo/catastral/gestioncatastral/buscarparcelaautocomplete",
+                                    dataType: "json",
+                                    path: "data.parcela",                                    
+                                    data: {query: "{{query}}"}                                 
+                                }
+                            },
+                            partida: {
+                                display: "partida",
+                                ajax: {
+                                    type: "POST",
+                                    url: "/geo/catastral/gestioncatastral/buscarpartidaautocomplete",
+                                    dataType: "json",
+                                    path: "data.partida",                                    
+                                    data: {query: "{{query}}"}                                 
+                                }
+                            },
+                            calle: {                                
+                                display: "nombre_via",                                                                                                  
+                                ajax: {
+                                    type: "POST",
+                                    url: "/geo/catastral/gestioncatastral/buscarcalleautocomplete",
+                                    dataType: "json",
+                                    path: "data.calle",
+                                    data: {query: "{{query}}"}                                    
+                                }
+                            }
+                    },
+                    callback: {
+                        onNavigateAfter: function (node, lis, a, item, query, event) {
+                            if (~[38,40].indexOf(event.keyCode)) {
+                                var resultList = node.closest("form").find("ul.typeahead__list"),
+                                    activeLi = lis.filter("li.active"),
+                                    offsetTop = activeLi[0] && activeLi[0].offsetTop - (resultList.height() / 2) || 0;
+
+                                resultList.scrollTop(offsetTop);
+                            }
+                        },
+                        onClickAfter: function (node, a, item, event) {        
+                            event.preventDefault();
+                            $("#__group").val(item.group);
+                            $("#__search_via_id").val(item.via_id);
+                            $("#__via_nombre").val(item.nombre_via); 
+                            //Usuario no logueado
+                            if(item.parcela_id){
+                                $("#__parcela_id").val(item.parcela_id);
+                                $("#__the_geom").val(item.the_geom);
+                                $("#__predio_id").val(item.predio_id);
+                            }
+                            $('#result-container').text('');                            
+                            if(item.group !== 'calle'){                                
+                                $("#quit_search_form").submit();
+                            }
+                        },
+                        onResult: function (node, query, result, resultCount) {            
+                            if (query === "") return; 
+                            var text = "";
+                            if (result.length > 0 && result.length < resultCount) {
+                                text = '';  // "Se muestran <strong>" + result.length + "</strong> de <strong>" + resultCount + '</strong> elementos encontrados"' + query + '"';
+                            } else if (result.length > 0) {
+                                text = ''; // 'Se muestran <strong>' + result.length + '</strong> elementos encontrados "' + query + '"';
+                            } else {
+                                text =  //'No se encontraron resultados para "' + query + '"';
+                                text = '';
+                            }
+                            $('#result-container').html(text);
+                        }        
+                    }
+                });
+                
+                
+                  
+                
+                    
+                        
+                
+                    $("#quit_search_form").submit(function (event) {                   
+                            var group =  $('#__group').val();                    
+                            var params = '';                            
+                            var parcela_id ='';
+                            $("#_parcela_details").empty();
+                            switch (group) {
+                                case 'calle':
+                                    if($("#test_v1").val()){                                                                
+                                        var numeroPortal = $("#test_v1").val().substring($("#__via_nombre").val().length);                                
+                                        var direccionObj = {calle: $('#__search_via_id').val(), altura: numeroPortal.trim()};                                
+                                        params = $.param(direccionObj);                                                                                
+                                        $.ajax({
+                                            url: '/geo/catastral/gestioncatastral/searchlocal;jsessionid=AC6CAB63A2D9780B9C93D616630531DD',
+                                            type: "GET",
+                                            data: params,
+                                            success: function (data) {
+                                                if (data.success) {                                                    
+                                                    $("#__parcela_id").val(data.parcela_id);                                                                                                        
+                                                    if(data.parcela_id){                                                                                                                
+                                                        var pl = data.the_geom;
+                                                        var feature = domain.objects.featureFromText(pl, {
+                                                            fid: data.predio_id
+                                                        });
+                                                        domain.objects.zoomInObject = function () {
+                                                            map.zoomToExtent(feature.geometry.getBounds());
+                                                        };
+                                                        domain.objects.selectFeature(map, feature, true);
+                                                        
+                                                       // $("#map-col").parent().removeClass("col-lg-12").addClass("col-lg-8");                                            
+                                                        $("#menu-toggle").show();
+
+                                                        $("#_parcela_details").load('modparceladetail?id=' + data.parcela_id);
+                                                    }
+                                                } else {                                                                                                        
+                                                    //$("#_parcela_details").empty();
+                                                     $('#object_not_found').modal('show');
+                                                }                                                
+                                            }                                    
+                                        });                                                                                             
+                                    }     
+                                    return false;
+                                    break;
+                                case 'parcela':                                    
+                                    parcela_id =  $("#__parcela_id").val();                                    
+                                    the_geom =  $("#__the_geom").val();
+                                    predio_id =  $("#__predio_id").val();
+                                    break;
+                                case 'partida':                                    
+                                    parcela_id =  $("#__parcela_id").val();
+                                    the_geom =  $("#__the_geom").val();
+                                    predio_id =  $("#__predio_id").val();
+                                    break;
+                                default:                                    
+                                    parcela_id =  $("#__parcela_id").val();
+                                    the_geom =  $("#__the_geom").val();
+                                    predio_id =  $("#__predio_id").val();
+                                    break;
+                            }                            
+                            if (event.isDefaultPrevented()) {
+                                // handle the invalid form...
+                            } else {
+                                event.preventDefault();
+                                // everything looks good!    
+                                if(parcela_id){ 
+                                    var pl = the_geom;
+                                    var feature = domain.objects.featureFromText(pl, {
+                                        fid: predio_id
+                                    });
+                                    domain.objects.zoomInObject = function () {
+                                        map.zoomToExtent(feature.geometry.getBounds());
+                                    };
+                                    domain.objects.selectFeature(map, feature, true);
+                                                                                
+                                    $("#menu-toggle").show();
+                                    $("#_parcela_details").load('modparceladetail?id=' + parcela_id);                                    
+                                }
+                                return false;
+                            }
+                        });                                
+                                
+                
+                
+                
+                
+
+                $('#map_imprimir').click(function () {
+                    
+                });
+
+
+                // The measure controls
+
+                measureControls = {
+                    line: new OpenLayers.Control.DynamicMeasure(
+                            OpenLayers.Handler.Path, {geodesic:true}),
+                    polygon: new OpenLayers.Control.DynamicMeasure(
+                            OpenLayers.Handler.Polygon, {geodesic:true})
+                };
+
+                
+
+                for (var key in measureControls) {
+                    var control = measureControls[key];
+                    control.layerHeadingOptions = null;
+                    control.layerSegmentsOptions = null;
+                    control.maxSegments = 1;
+                }
+                measureControls['polygon'].layerLengthOptions = null;
+
+
+                $('#map_distancia').click(function () {
+                    $( this ).css( "opacity", "1" );
+                    $('#map_area').css( "opacity", "" );
+                    $('#map_mover').css( "opacity", "" );
+                    measureControls['line'].activate();
+                    measureControls['polygon'].deactivate();
+                });
+
+                $('#map_area').click(function () {
+                    $( this ).css( "opacity", "1" );
+                    $('#map_distancia').css( "opacity", "" );
+                    $('#map_mover').css( "opacity", "" );
+                    measureControls['polygon'].activate();
+                    measureControls['line'].deactivate();
+                });
+
+                $('#map_mover').click(function () {
+                    $( this ).css( "opacity", "1" );
+                    $('#map_area').css( "opacity", "" );
+                    $('#map_distancia').css( "opacity", "" );
+                    measureControls['line'].deactivate();
+                    measureControls['polygon'].deactivate();
+                });
+
+                $('#map_mover').css( "opacity", "1" );
+         });
+                          
+        </script>-->
+    <style>
+    .pre-scrollable{
+        max-height:630px;
+        overflow-y:scroll;        
+    }
+    </style><link rel="preload" as="script" href="/geo/js/tabla-layer-info-ws/tabla-layer-info-ws.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/mod-capas-detail/mod-capas-detail.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/DynamicMeasure.js"><link rel="preload" as="script" href="/geo/js/DynamicMeasure.js"><link rel="preload" as="script" href="/geo/catastral/layers/layerslist;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/catastral/layers/layerslist;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/catastral/layers/geoserverlocation;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/proj4js-compressed.min.js"><link rel="preload" as="script" href="/openlayers-2.12/lib/OpenLayers.js"><link rel="preload" as="script" href="/geo/js/7ven/jquery.typeahead.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/JqueryRotate/jquery-rotate.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/lightbox.min.js"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-dialog.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/bootstrap/jquery.backTop.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/bootstrap/jquery.responsive-tabs.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/es.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/respond.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/main.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.sparkline.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/fitvids.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/skycons.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/morris.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/date.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/daterange-picker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/typeahead.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-switch.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-colorpicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-timepicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-datepicker.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-fileupload.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.validate.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.inputmask.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/summernote.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/wysiwyg.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/styleswitcher.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/select2.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.fancybox.pack.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/modernizr.custom.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/isotope_extras.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.isotope.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/excanvas.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.easy-pie-chart.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/dataTables.tableTools.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/datatable-editable.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/bootstrap/jquery.dataTables.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/gcal.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.bootstrap.wizard.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.vmap.world.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.vmap.sampledata.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.vmap.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery.mousewheel.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/selectivizr-min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/raphael.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/bootstrap-3.1.0.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery-ui.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/fullcalendar.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/moment.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"><link rel="preload" as="script" href="/geo/js/7ven/jquery-1.11.3.min.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></head>
+    
+    <body>
+        <div class="modal-shiftfix">
+            <!-- Navigation -->
+            
+
+
+
+<!-- QR code this site -->                      
+<div class="modal fade" id="qr_code" role="dialog" aria-labelledby="edificacion_details" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" style="text-align: center">
+                <img src="" id="image_qr_this_page">
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="encabezado" class="navbar navbar-fixed-top scroll-hide" style="margin-bottom: 0px;">
+    <div class="container-fluid top-bar">
+        
+
+
+
+
+<div class="pull-right">
+    <ul class="nav navbar-nav pull-right">             
+        
+        
+            
+                            
+                <!--
+                <img width="34" height="34" src="/geo/images/user.png;jsessionid=AC6CAB63A2D9780B9C93D616630531DD" />
+                <a href="/geo/catastral/login/loginpage;jsessionid=AC6CAB63A2D9780B9C93D616630531DD">Login</a>
+                -->
+            
+        
+        
+    </ul>
+</div>
+ 
+        <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="logo" href="/geo/catastral/gestioncatastral/inicio;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></a>
+
+              
+        
+            
+            
+                <a class="logo-muni" href="/geo/catastral/gestioncatastral/inicio;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></a>
+                <div class="col-lg-3" style="float: right;" id="menu-buscar">
+                <!--div class="buscar col-lg-3" id="menu-buscar"-->
+                    <form role="form" action="#" method="post" id="quit_search_form" class="navbar-form form-inline col-lg-2 hidden-xs">                                            
+                        <input type="hidden" name="via" id="__search_via_id" value="">
+                        <input type="hidden" name="calle_nombre" id="__via_nombre" value="">
+                        <input type="hidden" name="group" id="__group" value="">                                            
+                        <input type="hidden" name="parcela" id="__parcela_id" value="">  
+                        <input type="hidden" name="geom" id="__the_geom" value="">  
+                        <input type="hidden" name="predio" id="__predio_id" value="">  
+                        <var id="result-container" class="result-container"></var>
+                        <div class="typeahead__container">
+                            <div class="typeahead__field">
+                                <span class="typeahead__query">
+                                    <input class="js-typeahead-test_v1" name="test_v1[query]" id="test_v1" type="search" placeholder="Dirección / Padrón / Partida..." autocomplete="off">
+                                </span>
+                                <span class="typeahead__button">
+                                    <button type="submit">
+                                        <i class="typeahead__search-icon"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            
+                    
+    </div> 
+        
+    
+       
+</div>
+<!--<script type="text/javascript">        
+             
+             
+         $(function() {
+                $("#encabezado").attr('style', "height:0px;");
+         });  
+    
+    $('#padron').typeahead({
+        minLength: 1,
+        order: "asc",
+        hint: true,
+        dynamic: true,
+        filter: false,
+        emptyTemplate: function(query) {
+            if (query.length > 0) {
+
+                return 'No se encontro "' + query + '"';
+            }
+
+        },
+        display: "padron",
+        source: {
+            datos: {
+                ajax: {
+                    type: "POST",
+                    url: "/geo/catastral/gestioncatastral/padronpredict/;jsessionid=AC6CAB63A2D9780B9C93D616630531DD",
+                    dataType: "json",
+                    data: {query: "{{query}}"},
+                    callback: {
+                        done: function(data, textStatus, jqXHR) {
+                            console.log(data);
+                            return data;
+                        }
+                    }
+                }
+            }
+        },
+        callback: {
+            onClick: function(node, a, item, event) {
+                window.location = '/geo/catastral/gestioncatastral/predio/;jsessionid=AC6CAB63A2D9780B9C93D616630531DD' + item.predio_id;
+            }
+        }
+    });
+</script>-->
+
+            
+            <!-- End Navigation -->            
+            <div class="container-fluid main-content">                
+                <!--
+                <div class="page-title">
+                    <h1>
+                        Gestión Catastral
+                    </h1>
+                </div>                
+                -->
+                <div class="row" style="padding: 0px; margin: 0px;">    
+                    <div id="map-col" class="col-lg-12">                                     
+                        <div class="row" id="mapa_inicio_padre">
+                            <div>
+                                
+
+<!--<script type="text/javascript" src="/geo/js/DynamicMeasure.js"></script>-->
+<!--<script type="text/javascript" src="/geo/js/mod-capas-detail/mod-capas-detail.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></script>-->
+<!--<script type="text/javascript" src="/geo/js/tabla-layer-info-ws/tabla-layer-info-ws.js;jsessionid=AC6CAB63A2D9780B9C93D616630531DD"></script>-->
+
+<!--<script type="text/javascript">
+    var map = null;
+    var measureControls = null;
+    
+    $(document).ready(function () {
+        map = domain.objects.mapa();
+        
+        
+        
+
+        var alayers = new Array();
+        //BaseLayers
+        for (var i = 0; i < _sg__baselayers.length; i++) {  //Capas bases
+            var ldata = _sg__baselayers[i];
+            /*if (ldata.layer == 'sf_completo'){
+                ldata.server = "http://10.20.0.95:8090/geoserver/gwc/service/wms";
+                ldata.layer = 'sitmax:sf_completo';
+                ldata.format = 'image/jpeg';
+                ldata.projection = "EPSG:32720"
+            }*/
+            
+            var l = new OpenLayers.Layer.WMS(ldata.name,
+                    (ldata.server)?ldata.server:domain.objects.geoserverUrl,
+                    {layers: ldata.layer,
+                        format: (ldata.format)?ldata.format:'image/jpeg'
+                    },
+            {
+                isBaseLayer: true,
+                projection: (ldata.projection)?ldata.projection:'EPSG:32720',
+                ratio: 2,
+                buffer: 0,
+                displayOutsideMaxExtent: true
+            });
+            alayers.push(l);
+        }
+
+        //OverLays
+        for (var i = 0; i < _sg__overLayers.length; i++) { //Capas no bases
+            var ldata = _sg__overLayers[i];
+            var l = new OpenLayers.Layer.WMS(ldata.name,
+                    domain.objects.geoserverUrl,
+                    {layers: ldata.layer,
+                        transparent: true,
+                        format: 'image/png'
+                    },
+            {
+                isBaseLayer: false,
+                projection: "EPSG:32720",
+                visibility: false,
+                singleTile: true
+            });
+            alayers.push(l);
+        }
+
+        //Map layers
+        map.addLayers(alayers);
+        this.objectselected = new OpenLayers.Layer.Vector("objectselected", {
+            projection: "EPSG:32720",
+            displayInLayerSwitcher: false
+        });
+        map.addLayer(this.objectselected);
+        
+        map.addControl(new OpenLayers.Control.MousePosition({separator:" , ", prefix:"<div style=\"background-color:aliceblue;\">" , displayProjection:"EPSG:4326", suffix:"</div>" }));
+        // Otra forma de cambiar el style de MousePosition es editando el CSS: olControlMousePosition en http://localhost:8080/openlayers-2.12/theme/default/style.css 
+        // map.addControl(new OpenLayers.Control.MousePosition({separator:" , ", displayProjection:"EPSG:4326" }));
+        //WFS service pro principal entity [parcela]
+       // , coordinateFormat: ol.coordinate.toStringXY(2)
+         
+        var predio = new OpenLayers.Layer.WMS("Parcelas",
+                domain.objects.geoserverUrl,
+                {layers: 'parcela',
+                    transparent: true,
+                    format: 'image/png'
+                }, {
+            isBaseLayer: false,
+            projection: "EPSG:22185",//domain.objects.projection,
+            visibility: true
+        });
+      
+        //WMSGetFeatureInfo Control for Parcela
+        alayers.push(predio);
+        var control = new OpenLayers.Control.WMSGetFeatureInfo({
+            url: domain.objects.geoserverUrl,
+            title: 'Identify features by clicking',
+            autoActivate: true,
+            infoFormat: "application/vnd.ogc.gml",
+            //maxFeatures: 1,
+            layers: [alayers],
+            queryVisible: true,
+            drillDown: true
+        });
+        
+//        alayers.push(polygonLayer);
+        alayers.forEach(function(capa){
+           console.log(capa);
+           control.layers.push(capa);
+        });
+        
+
+        map.addControl(control);
+        domain.objects.control = control;
+        
+        if (!map.getCenter()) {
+            map.zoomToMaxExtent();
+        }
+        
+        map.zoomTo(4);
+        // map.zoomTo(1);
+        
+        
+        
+            
+        
+        
+        $('#map_imprimir').click(function () {
+            var divToPrint=document.getElementById('map');
+            var newWin=window.open('','Imprimir mapa','status=no,toolbar=no,menubar=no,location=no');
+            newWin.document.write('<html><title>Impresión de Mapa</title><body onload="window.print();"><input type="button" onClick="window.print()" value="Imprimir Mapa"/><br/>'+divToPrint.innerHTML+'</body></html>');
+        });
+
+       // The measure controls
+        measureControls = {
+            line: new OpenLayers.Control.DynamicMeasure(
+                    OpenLayers.Handler.Path, {geodesic:true}),
+            polygon: new OpenLayers.Control.DynamicMeasure(
+                    OpenLayers.Handler.Polygon, {geodesic:true})
+        };
+
+        map.addControls([
+            measureControls.line,
+            measureControls.polygon
+        ]);
+
+        for (var key in measureControls) {
+            var control = measureControls[key];
+            control.layerHeadingOptions = null;
+            control.layerSegmentsOptions = null;
+            control.maxSegments = 1;
+        }
+        measureControls['polygon'].layerLengthOptions = null;
+       
+        $('#map_distancia').click(function () {
+            $( this ).css( "opacity", "1" );
+            $('#map_area').css( "opacity", "" );
+            $('#map_mover').css( "opacity", "" );
+            measureControls['line'].activate();
+            measureControls['polygon'].deactivate();
+        });
+
+        $('#map_area').click(function () {
+            $( this ).css( "opacity", "1" );
+            $('#map_distancia').css( "opacity", "" );
+            $('#map_mover').css( "opacity", "" );
+            measureControls['polygon'].activate();
+            measureControls['line'].deactivate();
+        });
+
+        $('#map_mover').click(function () {
+            $( this ).css( "opacity", "1" );
+            $('#map_area').css( "opacity", "" );
+            $('#map_distancia').css( "opacity", "" );
+            measureControls['line'].deactivate();
+            measureControls['polygon'].deactivate();
+        });
+        
+        $('#layer_switcher :checkbox').click(function() {
+            var $this = $(this);
+            // $this will contain a reference to the checkbox   
+            if ($this.is(':checked')) {
+                // the checkbox was checked 
+                $.ajax("/geo/catastral/gestioncatastral/modcapadetailgetsave/"+$this.val()).done(function(){});
+                map.getLayersByName($this.val())[0].setVisibility(true);
+                //if(map.getLayersByName($this.val())[0].params.CQL_FILTER !== null) {params.cql_filter = map.getLayersByName($this.val())[0].params.CQL_FILTER;} 
+                //if(map.getLayersByName($this.val())[0]== 'Distritos ROU') {
+                //map.getLayersByName($this.val())[0].params.cql_filter = "layer='R3'";
+                //var filtrito=document.getElementById(122).value();
+                //console.log($this.val());
+                
+               // }    
+                
+            } else {
+                // the checkbox was unchecked
+                $.ajax("/geo/catastral/gestioncatastral/modcapadetailgetremove/"+$this.val()).done(function(){});
+                map.getLayersByName($this.val())[0].setVisibility(false);
+            }
+        });
+        //Base Layer
+        $('#base_switcher :radio').click(function() {
+            var $this = $(this);
+            // $this will contain a reference to the checkbox
+            if (map.baseLayer.name !== $this.val()) {
+                map.setBaseLayer(map.getLayersByName($this.val())[0]);
+            }
+        });
+        //Filter layer
+        $('#filter_layer :button').click(function() {
+            var $this = $(this);
+            alert("un filtro  ");
+
+        });
+
+        $('#map_mover').css( "opacity", "1" );
+        $("#map_settings_plus").click(function(){
+            if($('#tabfichacastastral').length && $('#btn-abrir-edit-parcela').length){
+                if($("#menu-capas").is(":visible")){
+                    $("#menu-mapa").parent().parent().removeClass("col-lg-7").addClass("col-lg-5");
+                    $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-capas").hide();
+                    $("#tabfichacastastral").removeClass("col-lg-5").addClass("col-lg-7");
+                    $("#btn-abrir-edit-parcela").removeClass("col-lg-8").addClass("col-lg-12");
+                    //$("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                    $("#map_settings_plus").attr('class', 'icon-list pull-right');
+                }else{
+                    $("#menu-mapa").parent().parent().removeClass("col-lg-5").addClass("col-lg-7");
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#tabfichacastastral").removeClass("col-lg-7").addClass("col-lg-5");
+                    $("#btn-abrir-edit-parcela").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }
+            }
+            else if($("#mapa_inicio_padre").length){
+                if($("#menu-capas").is(":visible") ){
+                    $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-capas").hide();
+                    //$("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                    $("#map_settings_plus").attr('class', 'icon-list pull-right');
+                }else if($("#_parcela_details_padron").is(":visible")){
+                    $("#map-col").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }else{
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }
+            }else if($("#mapa_reporte_permiso_obra").length){
+                if($("#menu-capas").is(":visible") ){
+                    $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-capas").hide();
+                    //$("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                    $("#map_settings_plus").attr('class', 'icon-list pull-right');
+                }else{
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }
+            }else if($("#mapa_buscar_calle_padre").length){
+                if($("#menu-capas").is(":visible") ){
+                    $("#mapa_buscar_calle_padre").removeClass("col-lg-7").addClass("col-lg-5");
+                    $("#padre_ficha_calle").removeClass("col-lg-5").addClass("col-lg-7");
+                    $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-capas").hide();
+                    //$("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                    $("#map_settings_plus").attr('class', 'icon-list pull-right');
+                }else{
+                    $("#mapa_buscar_calle_padre").removeClass("col-lg-5").addClass("col-lg-7");
+                    $("#padre_ficha_calle").removeClass("col-lg-7").addClass("col-lg-5");
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }
+            }else{
+                if($("#menu-capas").is(":visible") ){
+                    $("#menu-mapa").removeClass("col-lg-8").addClass("col-lg-12");
+                    $("#menu-capas").hide();
+                    //$("#map_settings_plus").attr('class', 'icon-arrow-left pull-right');
+                    $("#map_settings_plus").attr('class', 'icon-list pull-right');
+                }else{
+                    $("#menu-mapa").removeClass("col-lg-12").addClass("col-lg-8");
+                    $("#menu-capas").show();
+                    $("#map_settings_plus").attr('class', 'icon-arrow-right pull-right');
+                }
+            }
+            $("#parcela_details").hide();
+            $("#menu-toggle").hide();
+            $("#_parcela_details_padron").hide();
+        });
+        
+    });
+        
+</script>-->
+<div class="col-lg-12" id="menu-mapa">
+    <div class="widget-container">
+        <!--div class="heading" style="padding-bottom: 0px; padding-top: 5px; height: 30px;">
+            <i class="icon-map-marker"></i>Mapa
+            <i title="Capas" id="map_settings_plus" class="icon-list pull-right"></i>
+            <i class="icon- pull-right" id="map_distancia">Distancia</i> 
+            <i class="icon- pull-right" id="map_area">Area</i>
+            <i class="icon- pull-right" id="map_mover">Mover</i> 
+            <i class="icon- pull-right" id="map_imprimir">Imprimir</i>
+        </div-->
+        <div class="heading" style="padding-bottom: 0px; padding-top: 5px; height: 30px;">
+            <!--i class="icon-map-marker"></i>Mapa -->
+            <a href="https://santafeciudad.gov.ar/geo-portal" target="_blank" style="text-decoration:none;">Acerca de GEO Portal</a>
+            <i title="Capas" id="map_settings_plus" class="icon-list pull-right"></i>
+            <i></i> <span id="map_distancia" style="margin-left:10px; text-decoration:none;" class="btn-link pull-right" title="Calcular distancia">Distancia</span>
+            <i></i> <span id="map_area" style="margin-left:10px; text-decoration:none;" class="btn-link pull-right" title="Medir superficie">Área</span>
+            <i></i> <span id="map_mover" style="margin-left:10px; text-decoration:none;" class="btn-link pull-right">Mover</span>
+            <i></i> <span id="map_imprimir" style="margin-left:10px; text-decoration:none;" class="btn-link pull-right">Imprimir</span>
+        </div>        
+        <div class="widget-content padded" style="padding-top: 0px;">
+            
+                
+                    <div class="map" id="map" style="height: 600px;"></div>
+                
+                
+            
+        </div>
+    </div>
+</div>
+<!-- Map Settings -->    
+
+<div class="col-lg-4" id="menu-capas" hidden="" style="padding-left: 0px;">
+    <div class="widget-container fluid-height clearfix">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="widget-container fluid-height">
+                   
+                    <div class="heading">
+                        <i class="icon-collapse"></i>Capas geográficas
+                    </div>                    
+                    <div class="widget-content">
+                        <div class="panel-group" id="accordion_layers">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <a class="accordion-toggle" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">
+                                            <div class="caret pull-right">
+
+                                            </div>
+                                            Mapa Base
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="panel-collapse collapse in" id="collapseOne">
+                                    <div class="panel-body">
+                                        <div class="form-group" id="base_switcher">
+                                            
+                                                <label class="radio">
+                                                    <input checked="" name="base" type="radio" value="Parcelario">
+                                                    <span>Parcelario</span>
+                                                </label>
+                                            
+                                                <label class="radio">
+                                                    <input name="base" type="radio" value="Manzanero">
+                                                    <span>Manzanero</span>
+                                                </label>
+                                            
+                                                <label class="radio">
+                                                    <input name="base" type="radio" value="Imagen Satelital (2017)">
+                                                    <span>Imagen Satelital (2017)</span>
+                                                </label>
+                                            
+                                                <label class="radio">
+                                                    <input name="base" type="radio" value="En blanco">
+                                                    <span>En blanco</span>
+                                                </label>
+                                            
+                                                <label class="radio">
+                                                    <input name="base" type="radio" value="Imagen Satelital CONAE (2022)">
+                                                    <span>Imagen Satelital CONAE (2022)</span>
+                                                </label>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="layer_switcher"> 
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse1">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion Catastral
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse1">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Padrones">
+                                                        <span>Padrones</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Parcelas">
+                                                        <span>Parcelas</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Calles">
+                                                        <span>Calles</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Calles Sin Nombre">
+                                                        <span>Calles Sin Nombre</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Afectaciones de calles">
+                                                        <span>Afectaciones de calles</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Zonas Inmobiliarias">
+                                                        <span>Zonas Inmobiliarias</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Espacios verdes catastrales (E.V. Municipales: verde claro | E.V. Privados: verde oscuro)">
+                                                        <span>Espacios verdes catastrales (E.V. Municipales: verde claro | E.V. Privados: verde oscuro)</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse2">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion Urbana
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse2">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Distritos ROU">
+                                                        <span>Distritos ROU</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Inmuebles Patrimoniales (Puntos) Ord. 12784/21 (Tipo de Protección): Rojo oscuro: MONUMENTO | Rojo: INTEGRAL | Naranja: PARCIAL | Amarillo: CAUTELAR">
+                                                        <span>Inmuebles Patrimoniales (Puntos) Ord. 12784/21 (Tipo de Protección): Rojo oscuro: MONUMENTO | Rojo: INTEGRAL | Naranja: PARCIAL | Amarillo: CAUTELAR</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Inmuebles Patrimoniales Ord. 12784/21 (Tipo de Protección): Rojo oscuro: MONUMENTO | Rojo: INTEGRAL | Naranja: PARCIAL | Amarillo: CAUTELAR">
+                                                        <span>Inmuebles Patrimoniales Ord. 12784/21 (Tipo de Protección): Rojo oscuro: MONUMENTO | Rojo: INTEGRAL | Naranja: PARCIAL | Amarillo: CAUTELAR</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse3">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion Administrativa
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse3">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Vecinales">
+                                                        <span>Vecinales</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Distritos">
+                                                        <span>Distritos</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Oficinas de distritos">
+                                                        <span>Oficinas de distritos</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Ejido Municipal">
+                                                        <span>Ejido Municipal</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse4">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion Hidrica
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse4">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Cuencas">
+                                                        <span>Cuencas</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Subcuencas">
+                                                        <span>Subcuencas</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Red de Puntos Fijos Planialtimétricos (magenta = Relevado con GPS | rojo = Relevado sin GPS | azul = Proyectado | verde = Materializado)">
+                                                        <span>Red de Puntos Fijos Planialtimétricos (magenta = Relevado con GPS | rojo = Relevado sin GPS | azul = Proyectado | verde = Materializado)</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Red de Puntos Fijos Altimétricos (Colastiné Norte)">
+                                                        <span>Red de Puntos Fijos Altimétricos (Colastiné Norte)</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse5">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion de Riesgo
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse5">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Estaciones de operación (Bombeo)">
+                                                        <span>Estaciones de operación (Bombeo)</span>
+                                                        
+                                                    </label>
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Puntos de Encuentro">
+                                                        <span>Puntos de Encuentro</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a class="accordion-toggle collapsed" data-parent="#accordion_layers" data-toggle="collapse" href="#collapse6">
+                                                    <div class="caret pull-right"></div>
+                                                    Gestion de la Movilidad
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="collapse6">
+                                            <div class="panel-body">
+                                                
+                                                    <label class="checkbox">
+                                                        <input name="layer" type="checkbox" value="Sistema de Transporte Público de Colectivos">
+                                                        <span>Sistema de Transporte Público de Colectivos</span>
+                                                        
+                                                    </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                
+                                
+                                
+                            </div>
+                        </div>                       
+                    </div>
+                    
+                    
+                        
+                        
+                        
+                        
+                    
+                    
+                    
+                    
+                    
+                        
+                            <div class="row col-lg-4" id="_parcela_details_padron" hidden="" style="padding-left: 0px;">
+                                
+                                <div id="menu-toggle" class="col-lg-1" style="padding-right: 0px; width: 22px;">                  
+                                    <i class="icon-caret-right icon-2x"></i>                                                        
+                                </div>
+                                <div class="col-lg-11 pre-scrollable widget-container fluid-height" id="_parcela_details" style="padding-left: 0px; padding-right: 0px; width: 95%;">
+                                </div>
+                            </div>
+                        
+                        
+                         
+                </div>
+            </div>
+            
+<!-- Footer -->
+<footer class="modal-footer_inicio">
+
+  <!-- Copyright -->
+    <div>
+        Sistema en continuo saneamiento y actualización sujeto a posibles cambios - Recepción de comentarios
+    <a href="mailto:dide@santafeciudad.gov.ar">dide@santafeciudad.gov.ar</a>
+    </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->            
+        </div>
+            
+
+        <!-- Parcela details -->    
+        
+        <!-- Padrón details -->    
+        <div class="modal fade" id="object_error">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                        <h4 class="modal-title">
+                            Padrón sin objeto geográfico
+                        </h4>
+                    </div>
+                    <div class="modal-body" id="_object_error">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default-outline" data-dismiss="modal" type="button">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Padrón not found -->    
+        <div class="modal fade" id="object_not_found">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                        <h4 class="modal-title">
+                            Padrón inexistente
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-danger">
+                            No se há encontrado ningún resultado. 
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default-outline" data-dismiss="modal" type="button">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="map_settings">
+            <div class="modal-dialog">
+                <div class="modal-content" id="_map_settings">
+                    <div class="modal-header">
+                        <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                        <h4 class="modal-title">
+                            Capas geográficas
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default-outline" data-dismiss="modal" type="button">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;023f29d263c3414db72108c3f91f56bf&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+</body></html>

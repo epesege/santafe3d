@@ -1,0 +1,1188 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 56,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66cf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71294945036257,
+          -31.593556961428256
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "38",
+        "nombre": "Las Flores II",
+        "distrito": "norte",
+        "cod_calle": "08600",
+        "altura": 7600,
+        "ubicacion_informada": "G. de Lamadrid 7689",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70484189394913,
+          -31.566512666939044
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "39",
+        "nombre": "Altos de Noguera",
+        "distrito": "norte",
+        "cod_calle": "08600",
+        "altura": 10534,
+        "ubicacion_informada": "Lamadrid y Malaver",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72579569976026,
+          -31.564819936355462
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "7",
+        "nombre": "Cabaña Leiva",
+        "distrito": "norte",
+        "cod_calle": "11800",
+        "altura": 10300,
+        "ubicacion_informada": "E. Rosas 10300",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66cc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.725930575729954,
+          -31.599879974571053
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "36",
+        "nombre": "Cabal",
+        "distrito": "noroeste",
+        "cod_calle": "13300",
+        "altura": 5000,
+        "ubicacion_informada": "Ob. Boneo 5400",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66cb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72634283086722,
+          -31.668650774053617
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "29",
+        "nombre": "Emaus",
+        "distrito": "suroeste",
+        "cod_calle": "06825",
+        "altura": 342,
+        "ubicacion_informada": "S. Zavalia 342",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70497158353676,
+          -31.60323524615542
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "8",
+        "nombre": "San Jose",
+        "distrito": "norte",
+        "cod_calle": "07000",
+        "altura": 6798,
+        "ubicacion_informada": "E. Zeballos y San Lorenzo",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.726636994318156,
+          -31.64418591375142
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "3",
+        "nombre": "De Niños Dr. Orlando Alassia",
+        "distrito": "suroeste",
+        "cod_calle": "04700",
+        "altura": 4100,
+        "ubicacion_informada": "Mendoza 4151",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73224982822421,
+          -31.64283351772358
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "22",
+        "nombre": "Mendoza Oeste",
+        "distrito": "suroeste",
+        "cod_calle": "04700",
+        "altura": 4525,
+        "ubicacion_informada": "Mendoza 4519",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70515808373631,
+          -31.6502702500831
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "A",
+        "nombre": "CEMAFE",
+        "distrito": "centro",
+        "cod_calle": "04875",
+        "altura": 2250,
+        "ubicacion_informada": "27 de Febrero 2250",
+        "tipo": "CEMAFE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.684564095822616,
+          -31.573338357237404
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "15",
+        "nombre": "Altos del Valle",
+        "distrito": "noreste",
+        "cod_calle": "05200B",
+        "altura": 10340,
+        "ubicacion_informada": "Las Azucenas 10560",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.684558976279796,
+          -31.626942103820575
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "48",
+        "nombre": "Gutierrez Este",
+        "distrito": "este",
+        "cod_calle": "02600",
+        "altura": 4800,
+        "ubicacion_informada": "Avellaneda 4800",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7388583102811,
+          -31.578490820355544
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "10",
+        "nombre": "Loyola Sur",
+        "distrito": "noroeste",
+        "cod_calle": "17100",
+        "altura": 6539,
+        "ubicacion_informada": "J. Cibils 6539",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72364456621297,
+          -31.58595267835932
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "6",
+        "nombre": "G. Sayago",
+        "distrito": "norte",
+        "cod_calle": "16300",
+        "altura": 5070,
+        "ubicacion_informada": "French 5224",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68076030563821,
+          -31.594865421110043
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "3",
+        "nombre": "Cnel. Dorrego",
+        "distrito": "noreste",
+        "cod_calle": "16300",
+        "altura": 1698,
+        "ubicacion_informada": "French y Sarmiento",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66433351452378,
+          -31.598258214447323
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "33",
+        "nombre": "Setubal",
+        "distrito": "noreste",
+        "cod_calle": "16300",
+        "altura": 101,
+        "ubicacion_informada": "Riobamba y French",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66c0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.729523006358946,
+          -31.65583487078748
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "1",
+        "nombre": "San Lorenzo",
+        "distrito": "suroeste",
+        "cod_calle": "02900",
+        "altura": 4050,
+        "ubicacion_informada": "Amenabar 4057",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66bf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68361894163379,
+          -31.6116569596417
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "31",
+        "nombre": "Alberdi",
+        "distrito": "este",
+        "cod_calle": "12700",
+        "altura": 1515,
+        "ubicacion_informada": "Angel casanello 1515",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66be",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7422487158458,
+          -31.5609778781611
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "34",
+        "nombre": "Abasto",
+        "distrito": "noroeste",
+        "cod_calle": "14075",
+        "altura": 10249,
+        "ubicacion_informada": "Abipones y Espinosa",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66bd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6009132281731,
+          -31.62499031965805
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "46",
+        "nombre": "Colastiné Norte",
+        "distrito": "la costa",
+        "cod_calle": "33200",
+        "altura": 6650,
+        "ubicacion_informada": "Ruta prov. 1 km 3",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66bc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.659043731643564,
+          -31.635527550293258
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "32",
+        "nombre": "SAMCo El Pozo",
+        "distrito": "la costa",
+        "cod_calle": "25400P",
+        "altura": 1117,
+        "ubicacion_informada": "A. Greca 1117 - Manzana 19",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66bb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73217852758113,
+          -31.561212465082633
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "26",
+        "nombre": "Nuevo Horizonte",
+        "distrito": "noroeste",
+        "cod_calle": "12800",
+        "altura": 10483,
+        "ubicacion_informada": "Carranza y M. Rodriguez",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73420629676928,
+          -31.57735141004135
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "37",
+        "nombre": "E. López",
+        "distrito": "noroeste",
+        "cod_calle": "17500",
+        "altura": 6038,
+        "ubicacion_informada": "Piedrabuena 6066",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.699073586476175,
+          -31.59278242367669
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "4",
+        "nombre": "San Martin de Porres",
+        "distrito": "este",
+        "cod_calle": "05675",
+        "altura": 8002,
+        "ubicacion_informada": "Av. Facundo Zuviria 8002",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70504252546793,
+          -31.612833943017815
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "6",
+        "nombre": "C. Com. Barrio Los Hornos",
+        "distrito": "oeste",
+        "cod_calle": "05675",
+        "altura": 5802,
+        "ubicacion_informada": "Av. Facundo Zuviria 5879",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72436187981376,
+          -31.6534514541109
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "5",
+        "nombre": "Dr. Vera Candioti",
+        "distrito": "suroeste",
+        "cod_calle": "03500",
+        "altura": 3738,
+        "ubicacion_informada": "Mons. Zaspe 3738",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.699384728071266,
+          -31.66541831296729
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "43",
+        "nombre": "Demetrio Gómez",
+        "distrito": "la costa",
+        "cod_calle": "02700V",
+        "altura": 280,
+        "ubicacion_informada": "Alto Verde",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.689818896567296,
+          -31.629550482930522
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "47",
+        "nombre": "Vecinal San Martin",
+        "distrito": "este",
+        "cod_calle": "03400",
+        "altura": 4413,
+        "ubicacion_informada": "Alberdi 4413",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.697985358925045,
+          -31.65956612491867
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "42",
+        "nombre": "Alto Verde",
+        "distrito": "la costa",
+        "cod_calle": "01300V",
+        "altura": 320,
+        "ubicacion_informada": "Alto Verde",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72208712547915,
+          -31.63162437353419
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "25",
+        "nombre": "Villa del Parque",
+        "distrito": "suroeste",
+        "cod_calle": "06025A",
+        "altura": 4366,
+        "ubicacion_informada": "Padre Catena 4366",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.695214957154924,
+          -31.67310814956908
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "44",
+        "nombre": "Ramon Rivero",
+        "distrito": "la costa",
+        "cod_calle": "01800V",
+        "altura": 3450,
+        "ubicacion_informada": "La Boca",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69192650158899,
+          -31.638108455943648
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "30",
+        "nombre": "Barrio Candioti",
+        "distrito": "centro",
+        "cod_calle": "07100A",
+        "altura": 1563,
+        "ubicacion_informada": "Blvd. Galvez 1563",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66b0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.729349681327506,
+          -31.661713889705418
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "23",
+        "nombre": "Chalet",
+        "distrito": "suroeste",
+        "cod_calle": "01700A",
+        "altura": 3951,
+        "ubicacion_informada": "Mariano Cabral 3951",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66af",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70990916366539,
+          -31.62921612124228
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "9",
+        "nombre": "Quilmes",
+        "distrito": "oeste",
+        "cod_calle": "06600A",
+        "altura": 4000,
+        "ubicacion_informada": "Francia 4020",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ae",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.719949227202235,
+          -31.66321919357573
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "20",
+        "nombre": "Policlinico Centenario",
+        "distrito": "centro",
+        "cod_calle": "01900A",
+        "altura": 3194,
+        "ubicacion_informada": "Pietranera 3194",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74530436449658,
+          -31.583236290105585
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "13",
+        "nombre": "C. Com. Los Troncos",
+        "distrito": "noroeste",
+        "cod_calle": "13450A",
+        "altura": 8183,
+        "ubicacion_informada": "Pje. Troncoso 8183",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.747962673971024,
+          -31.563892193705367
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "17",
+        "nombre": "San Agustin",
+        "distrito": "noroeste",
+        "cod_calle": "19500C",
+        "altura": 7099,
+        "ubicacion_informada": "Tte. Loza 7000",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.738167501227956,
+          -31.566008751926667
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "40",
+        "nombre": "Yapeyú",
+        "distrito": "noroeste",
+        "cod_calle": "19500C",
+        "altura": 6630,
+        "ubicacion_informada": "12 de Octubre y Tte. Loza",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66aa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.726657454567345,
+          -31.648927124138854
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "2",
+        "nombre": "Evita",
+        "distrito": "suroeste",
+        "cod_calle": "08200",
+        "altura": 2018,
+        "ubicacion_informada": "R. S. Peña 2018",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70995096963148,
+          -31.586719971534627
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "16",
+        "nombre": "Pompeya",
+        "distrito": "norte",
+        "cod_calle": "08400",
+        "altura": 8399,
+        "ubicacion_informada": "Av. Gorriti 4100",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.693787145167924,
+          -31.583401709011067
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "19",
+        "nombre": "Las Delicias",
+        "distrito": "noreste",
+        "cod_calle": "18100A",
+        "altura": 3000,
+        "ubicacion_informada": "Alfonsina Storni 3000",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.719461138775166,
+          -31.648540015037618
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "4",
+        "nombre": "Dr. José María Cullen",
+        "distrito": "centro",
+        "cod_calle": "07200",
+        "altura": 2150,
+        "ubicacion_informada": "Av. Freyre 2150",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72606733716348,
+          -31.583875011312205
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "1",
+        "nombre": "J. B. Iturraspe",
+        "distrito": "noroeste",
+        "cod_calle": "08275",
+        "altura": 8351,
+        "ubicacion_informada": "Blas Parera 8301",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.727412866178355,
+          -31.57966645813254
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "2",
+        "nombre": "Dr. E. Mira y Lopez",
+        "distrito": "noroeste",
+        "cod_calle": "08275",
+        "altura": 8401,
+        "ubicacion_informada": "Blas Parera 8430",
+        "tipo": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71930773302471,
+          -31.608457351908292
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "27",
+        "nombre": "Villa Hipodromo",
+        "distrito": "oeste",
+        "cod_calle": "08275",
+        "altura": 6100,
+        "ubicacion_informada": "Blas Parera 6000",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.60509389156148,
+          -31.661929237854906
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "28",
+        "nombre": "Colastiné Sur",
+        "distrito": "la costa",
+        "cod_calle": "31975",
+        "altura": 3399,
+        "ubicacion_informada": "Parroquia",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73573912354092,
+          -31.66948579583533
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "41",
+        "nombre": "Varadero Sarsotti",
+        "distrito": "suroeste",
+        "cod_calle": "00525",
+        "altura": 4300,
+        "ubicacion_informada": "Varadero Sarsotti",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71930853802134,
+          -31.620465609303313
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "5",
+        "nombre": "C. Com. Barranquitas Oeste",
+        "distrito": "oeste",
+        "cod_calle": "09325",
+        "altura": 4100,
+        "ubicacion_informada": "Artigas 4100",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-66a0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.62267057908778,
+          -31.63821242912398
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "45",
+        "nombre": "La Guardia",
+        "distrito": "la costa",
+        "cod_calle": "38400A",
+        "altura": 5199,
+        "ubicacion_informada": "Ruta prov. 1 km 0",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.729945495043076,
+          -31.589780627727613
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "12",
+        "nombre": "C. Com. Juventud del norte",
+        "distrito": "noroeste",
+        "cod_calle": "11400",
+        "altura": 7701,
+        "ubicacion_informada": "Lehmann 7695",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.694005335081904,
+          -31.619105749370476
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "49",
+        "nombre": "Policlinico S. del Carril",
+        "distrito": "este",
+        "cod_calle": "10700A",
+        "altura": 2240,
+        "ubicacion_informada": "Salvador del Carril 2240",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73537386234146,
+          -31.595181754569502
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "11",
+        "nombre": "La Loma",
+        "distrito": "noroeste",
+        "cod_calle": "11675A",
+        "altura": 7099,
+        "ubicacion_informada": "Camino Viejo Esperanza 7000",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72631801365934,
+          -31.66343821652261
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "21",
+        "nombre": "FONAVI",
+        "distrito": "suroeste",
+        "cod_calle": "01175B",
+        "altura": 3730,
+        "ubicacion_informada": "Libertad 3730",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.711816965399294,
+          -31.607524468747883
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "14",
+        "nombre": "Padre Cobo",
+        "distrito": "oeste",
+        "cod_calle": "12300",
+        "altura": 3800,
+        "ubicacion_informada": "P. de vega 3800",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-669a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.675431053341875,
+          -31.602883618598444
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "24",
+        "nombre": "C. Com. Padre Trucco",
+        "distrito": "este",
+        "cod_calle": "14900",
+        "altura": 1055,
+        "ubicacion_informada": "Javier de la Rosa 1055",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-6699",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68469200815785,
+          -31.578128905140364
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "18",
+        "nombre": "Roca",
+        "distrito": "noreste",
+        "cod_calle": "19500A",
+        "altura": 2400,
+        "ubicacion_informada": "Callejon Roca 2400",
+        "tipo": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "efectores_salud.fid--14510d32_1a10c33cc8c_-6698",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73560056001156,
+          -31.58462390649793
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "referencia": "35",
+        "nombre": "Acería",
+        "distrito": "noroeste",
+        "cod_calle": "16100",
+        "altura": 6250,
+        "ubicacion_informada": "Matheu 6250",
+        "tipo": "Centro de Salud"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

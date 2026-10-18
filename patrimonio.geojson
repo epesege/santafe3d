@@ -1,0 +1,870 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 33,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66f0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74187469482429,
+          -31.665828704841637
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 156,
+        "nro_ficha": "156",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6658,
+        "longitud": -60.7419,
+        "parcela": null,
+        "frente_calle": "Ruta Nacional 11",
+        "denominacion": "Puente Carretero",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66ef",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69780731201179,
+          -31.61669540406039
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 157,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6167,
+        "longitud": -60.6978,
+        "parcela": null,
+        "frente_calle": "Aristóbulo del Valle",
+        "denominacion": "Puentes del FFCC (Puente Negro)",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66ee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70978164672859,
+          -31.62276077271274
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 158,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6228,
+        "longitud": -60.7098,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Puentes del FFCC (Puente Negro)",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66ed",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72704696655279,
+          -31.635793685920753
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 159,
+        "nro_ficha": "157",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6358,
+        "longitud": -60.727,
+        "parcela": null,
+        "frente_calle": "Naciones Unidas",
+        "denominacion": "Puentes del FFCC (Puente Negro)",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7508506774903,
+          -31.655277252204932
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 160,
+        "nro_ficha": "159",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6553,
+        "longitud": -60.7509,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Puente del FFCC - Santa Fe - Santo Tom�",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66eb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.676208496093814,
+          -31.631706237800625
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 161,
+        "nro_ficha": "160",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6317,
+        "longitud": -60.6762,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Pilares de la Laguna - Ex Puente FFCC",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66ea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67634963989265,
+          -31.64163398743442
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 162,
+        "nro_ficha": "161",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6416,
+        "longitud": -60.6763,
+        "parcela": null,
+        "frente_calle": "Ruta Nac. 168",
+        "denominacion": "Fuente de la Cordialidad",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69820404052739,
+          -31.629333496101413
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 929,
+        "nro_ficha": "928",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6293,
+        "longitud": -60.6982,
+        "parcela": null,
+        "frente_calle": "Pedro Vittori",
+        "denominacion": "Talleres del FFCC - Vittori e Iturraspe",
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67930984497077,
+          -31.64287567139438
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 2227,
+        "nro_ficha": "2226",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6429,
+        "longitud": -60.6793,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Puente palito",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.503139495849645,
+          -31.702363967903153
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 163,
+        "nro_ficha": "162",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.7024,
+        "longitud": -60.5031,
+        "parcela": null,
+        "frente_calle": "Ruta Nac. 168",
+        "denominacion": "Túnel Subfluvial y Edificios Cabecera Santa Fe",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68097305297857,
+          -31.64013481140905
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 30,
+        "nro_ficha": "30",
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.6401,
+        "longitud": -60.681,
+        "parcela": null,
+        "frente_calle": "7 Jefes",
+        "denominacion": "Puente colgante \"Ing. Marcial Candioti\"",
+        "tipo_proteccion": "MONUMENTO",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.685845620106626,
+          -31.63910109218475
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 1,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.639105,
+        "longitud": -60.68585,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Cabín Bv. Galvez",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.686628274434014,
+          -31.63870363931442
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 2,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.638695,
+        "longitud": -60.686612,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Cabín predio Estación Belgrano",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.686029512780586,
+          -31.634240403003854
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 3,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.634244,
+        "longitud": -60.686036,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Cabín predio Estación Belgrano",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68231878959605,
+          -31.626994846030193
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 4,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.627004,
+        "longitud": -60.682323,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Cabín",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68809230886242,
+          -31.628229330948958
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 5,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.628236,
+        "longitud": -60.688101,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Colodrero y Mitre",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69849645886826,
+          -31.629666138814915
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 6,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.629671,
+        "longitud": -60.698502,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66df",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69796787847688,
+          -31.629376434145353
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 7,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.629404,
+        "longitud": -60.69798,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66de",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.698125120038625,
+          -31.62852622515398
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 8,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.629404,
+        "longitud": -60.69813,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.697867492620965,
+          -31.62860489250431
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 9,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.628606,
+        "longitud": -60.697875,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66dc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.705217869357405,
+          -31.62000933465447
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 10,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.62002,
+        "longitud": -60.70521,
+        "parcela": null,
+        "frente_calle": "Av. Facundo Zuviria",
+        "denominacion": "Cabín",
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66db",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68716618271431,
+          -31.63804978593914
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 11,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.638061,
+        "longitud": -60.687204,
+        "parcela": null,
+        "frente_calle": "Bv. Galvez",
+        "denominacion": "Estación Belgrano",
+        "tipo_proteccion": "MONUMENTO",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66da",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68650168165085,
+          -31.637474965987813
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 12,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.637426,
+        "longitud": -60.686492,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Galpón FFRR",
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68607348711532,
+          -31.638358372026236
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 13,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -30.638353,
+        "longitud": -60.686077,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Galpón FFRR",
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68577144117737,
+          -31.637337311209013
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 14,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.637341,
+        "longitud": -60.685786,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Galpón FFRR",
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68642972364799,
+          -31.63431641822641
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 15,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.634317,
+        "longitud": -60.68643,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.683386166638186,
+          -31.628914266342534
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 16,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.628927,
+        "longitud": -60.683413,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68307701373703,
+          -31.628298543313196
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 17,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.628311,
+        "longitud": -60.683112,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69492372922004,
+          -31.620616034763213
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 18,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.620635,
+        "longitud": -60.694948,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Tanque Parque Federal",
+        "tipo_proteccion": "CAUTELAR",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69433029778905,
+          -31.619241245634548
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 19,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.619253,
+        "longitud": -60.694346,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69319081468207,
+          -31.61941876907047
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 20,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.61942,
+        "longitud": -60.6932,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69317363952089,
+          -31.619810126357947
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 21,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.619813,
+        "longitud": -60.693181,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": null,
+        "tipo_proteccion": "PARCIAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inmuebles_patrimoniales_puntos.fid--14510d32_1a10c33cc8c_-66d0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.77684806353644,
+          -31.558757675850554
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 22,
+        "nro_ficha": null,
+        "manzana": null,
+        "padron": null,
+        "latitud": -31.558775,
+        "longitud": -60.77683,
+        "parcela": null,
+        "frente_calle": null,
+        "denominacion": "Puente Mihura",
+        "tipo_proteccion": "INTEGRAL",
+        "observacion": null,
+        "predio_id": null
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

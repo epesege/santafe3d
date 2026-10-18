@@ -1,0 +1,5314 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 183,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.59",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66926374535643,
+          -31.60745523608153
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 59,
+        "institucio": "Club Banco Provincial Santa Fe",
+        "direccion": "Obispo Principe 350",
+        "padron": "40829",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB EMPLEADOS BANCO PROVINCIAL",
+        "superficie": 6468,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Schiavetti Alejandro",
+        "telefono": "3424362672",
+        "email": "clubanco@hotmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.696620154449974,
+          -31.609364302502794
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 159,
+        "institucio": "Bochas Club Mayoraz",
+        "direccion": "San Jeronimo 6346",
+        "padron": "36279",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOCHAS CLUB MAYORAZ",
+        "superficie": 750,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7096900939404,
+          -31.664016171497593
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 81,
+        "institucio": "Club Nautico El Quilla",
+        "direccion": "Pedro A. Candiotti 1100",
+        "padron": "141633",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB NAUTICO EL QUILLA",
+        "superficie": 44949,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": "Serrao Enrique",
+        "telefono": "4598989",
+        "email": "clubquilla@hotmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.703176966981175,
+          -31.638858604952475
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 100,
+        "institucio": "Sociedad Suiza Helvetia",
+        "direccion": "25 de mayo 3220",
+        "padron": "10654",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOCIEDAD SUIZA DE S MUTUO HELVETIA",
+        "superficie": 339,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71503865498286,
+          -31.635895676084953
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 96,
+        "institucio": "Club Rivadavia Juniors",
+        "direccion": "San Lorenzo 3265",
+        "padron": "167720",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO RIVADAVIA JUNIOR",
+        "superficie": 1768.41,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Norberto Ciorciari",
+        "telefono": "3425 46-7600",
+        "email": "quetosproducciones@hotmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70358137160763,
+          -31.642915041324027
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 153,
+        "institucio": "Fundacion Casa de España",
+        "direccion": "Rivadavia 2871",
+        "padron": "11833",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC. ESPAÑOLA DE SOCORROS MUTUOS",
+        "superficie": 1184,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.717782565271726,
+          -31.663034832516278
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 44,
+        "institucio": "Club Nacional Santa Fe",
+        "direccion": "J.J. Paso 3000",
+        "padron": "2793",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - FFCC",
+        "superficie": 13909,
+        "actividad_": "21. Club social y cultural_ 20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": "Ledesma Andrea",
+        "telefono": "3425192126",
+        "email": "ledesmanandrea@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68082878669676,
+          -31.608083989967316
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 127,
+        "institucio": "Centro Gallego",
+        "direccion": "Galicia 1357",
+        "padron": "33693",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO GALLEGO",
+        "superficie": 3377.8,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "12. Casa de fiestas",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69439570606266,
+          -31.642834361502164
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 161,
+        "institucio": "Bochas Club Sarmiento de la Ciudad de Santa Fe",
+        "direccion": "Sarmiento 2958",
+        "padron": "145740",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOCHAS CLUB \"SARMIENTO\"",
+        "superficie": 791,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "37. Patio cervecero/Parrillada",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72491310196393,
+          -31.65403302974779
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 130,
+        "institucio": "Asociacion Civil Centro Cltural y Social El Birri",
+        "direccion": "General Lopez 3698",
+        "padron": "9382",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO",
+        "superficie": 44349,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7161959793941,
+          -31.650330858239887
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 126,
+        "institucio": "Club Republica del Sur",
+        "direccion": "Francia 2065",
+        "padron": "14030",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOCIEDAD REPUBLICA DEL SUR",
+        "superficie": 490,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70006134408233,
+          -31.639531561612618
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 83,
+        "institucio": "Circulo Isaraelita Macabi",
+        "direccion": "Junin 2200",
+        "padron": "116046",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CIRCULO ISRAELITA MACABI",
+        "superficie": 2323,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Hoffman Sebastian",
+        "telefono": "3424325166",
+        "email": "gerenciamacabi@life.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71352946921348,
+          -31.650724568147883
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 102,
+        "institucio": "Centro Social Sirio - Casa Arabe",
+        "direccion": "4 de Enero 2073",
+        "padron": "14115",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO SOCIAL SIRIO",
+        "superficie": 487,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.708214099501355,
+          -31.653230357101773
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 97,
+        "institucio": "Club del Orden",
+        "direccion": "San Martin 1936",
+        "padron": "14652",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DEL ORDEN",
+        "superficie": 731,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "EDMUNDO NAVARRO",
+        "telefono": "342 - 5224093",
+        "email": "edmundonavarro1949@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.716453874125115,
+          -31.6556390324669
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 138,
+        "institucio": "Centro de Jubilados y Pensionados Nacionales",
+        "direccion": "Lavalle 6258 /Gral. Lopez 3126",
+        "padron": "15506",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO MUTUAL JUBILADOS Y PENSIONAD",
+        "superficie": 237,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.700920832610045,
+          -31.607609760625685
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 105,
+        "institucio": "Asociacion Civil Santa Fe, Nuestro Futuro",
+        "direccion": "4 de Enero 6425",
+        "padron": "137370",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 189,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": "6. Biblioteca_ 5. Instituto Técnico,academias y de investigación\n",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.92",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69694535829154,
+          -31.64019757307313
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 92,
+        "institucio": "Club Atletico Sportivo Candioti",
+        "direccion": "Gdor. Candioti 1955",
+        "padron": "16971",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL SP CANDIOTI",
+        "superficie": 474,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "bar_comedor",
+        "referente": "luis peralta secretario",
+        "telefono": "(0342) 466-9605",
+        "email": "louissperalta@yahoo.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.681089993851494,
+          -31.60555364070113
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 56,
+        "institucio": "Club Altetico Sportivo Guadalupe",
+        "direccion": "Lavalle 7025",
+        "padron": "33345",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO SPORTIVO GUADALUPE",
+        "superficie": 11248,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Musso Alejandro",
+        "telefono": "3426132004",
+        "email": "clubatletico.Sportivogaudalupe@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71419867907305,
+          -31.661633915348915
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 85,
+        "institucio": "Club Atletico Kimberley",
+        "direccion": "9 de Julio 1141",
+        "padron": "2192",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO KIMBERLEY",
+        "superficie": 2232,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Ivan Udrizard - Maria Medina",
+        "telefono": "3424796111 - 3425309015",
+        "email": "clubakimberley@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.685971218721704,
+          -31.62909789315572
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 132,
+        "institucio": "Club Atletico San Isidro",
+        "direccion": "Guemes 4546",
+        "padron": "81801",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO SAN ISIDRO",
+        "superficie": 369,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.69",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69540238463342,
+          -31.62796258710631
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 69,
+        "institucio": "Club Santa Rosa",
+        "direccion": "Las Heras 4435",
+        "padron": "22660",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL Y DEPORTIVO SANTA ROSA",
+        "superficie": 349.2,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "22. Comedor/Espectáculo\nbailable",
+        "referente": "Virginia Bolandav Presidenta",
+        "telefono": "342 5035922",
+        "email": "balandag@hotmail.com   info@clubsantarosa.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69036348513623,
+          -31.620534510940384
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 142,
+        "institucio": "Club Social y Deportivo Almafuerte",
+        "direccion": "Marcial Candioti 5330",
+        "padron": "58206",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "DE VARGAS FRANCISCO",
+        "superficie": 174,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71890754774399,
+          -31.581155132711203
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 116,
+        "institucio": "Asociacion Civil Club Social y Deportivo Los Cholitos",
+        "direccion": "Cjon. Aguirre 4900",
+        "padron": "117168",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "GARCIA LIDIA",
+        "superficie": 9418,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70503865685403,
+          -31.62031386306831
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 67,
+        "institucio": "Club Escalante",
+        "direccion": "Padilla 3048",
+        "padron": "25222",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DEPORT.CULT.ATLETICO ESCALANTE",
+        "superficie": 1029,
+        "actividad_": "19. Club deportivo al aire libre_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Delarechea Pedro PRESIDENTE",
+        "telefono": "3424291064- 0342 448-8900",
+        "email": "pedroignaciodelarrechea2@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73675331762684,
+          -31.661759979199825
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 39,
+        "institucio": "Automovil Club Santa Fe",
+        "direccion": "Av. Circunvalación 1100",
+        "padron": "176820",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD  DE SANTA FE",
+        "superficie": 296120.31,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Pablo Farina",
+        "telefono": "3425098599",
+        "email": "pablohfar@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67187154659945,
+          -31.600373592919066
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 70,
+        "institucio": "Club Teléfonos Santa fe",
+        "direccion": "Pavón 752",
+        "padron": "40997",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "TELECOM ARGENTINA S.A.",
+        "superficie": 7500,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": "colonia de vacaciones",
+        "referente": "Sergio Citerna",
+        "telefono": "4562670   int.106",
+        "email": "aprofesionales.soeesit.stafe@hotmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.683557504646345,
+          -31.621961725065624
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 150,
+        "institucio": "Centro Cultural y Deportivo “Bernardo de Monteagudo”",
+        "direccion": "Regis Martinez 1240/42",
+        "padron": "27073",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTR CUL Y DEP BERNARDO MONTEAGUDO",
+        "superficie": 246,
+        "actividad_": null,
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70091202965373,
+          -31.607738127478463
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 104,
+        "institucio": "Club Social y Deportivo Patricios",
+        "direccion": "4 de enero 6423",
+        "padron": "137487",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 127,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.91",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69153855805709,
+          -31.632615904447434
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 91,
+        "institucio": "Centro Cultural y Deportivo Esteban Echeverría",
+        "direccion": "Sarmiento 4046",
+        "padron": "20603",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO C Y D ESTEBAN ECHEVERRIA",
+        "superficie": 1088,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Karin Sebastian",
+        "telefono": "3425275632",
+        "email": "sejero14sejero14@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69139348163821,
+          -31.589722095688206
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 112,
+        "institucio": "Club Atlletico Unidos del Norte Santa Fe",
+        "direccion": "Aristobulo del Valle 8636",
+        "padron": "39239",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB UNIDOS DEL NORTE",
+        "superficie": 500,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.697146208048814,
+          -31.583217052123043
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 26,
+        "institucio": "Club Universitario",
+        "direccion": "ALfonsina Storini y Facundo Zuviria",
+        "padron": "140381",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB UNIVERSITARIO DE SANTA FE",
+        "superficie": 47661,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": "Jorge",
+        "telefono": "3426129828",
+        "email": "comunicacion@unisantafe.com.ar",
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7174804942359,
+          -31.66569725463077
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 162,
+        "institucio": "Asociacion Cooperativa de la Escuela de Educacion Media Nº 440 “Simon de Iriondo” - GIMENEZ, Dario Sergio",
+        "direccion": "Raul Tacca 700",
+        "padron": "153718",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC.COOP.COLEGIO NAC.S.DE IRIONDO",
+        "superficie": 54191.18,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "4.  Auditorio cubierto_ 12. Casa de fiestas_ 37. Patio cervecero/Parrillada",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66930364665901,
+          -31.608100619836552
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 60,
+        "institucio": "Club Banco Provincial Santa Fe",
+        "direccion": "Obispo Principe 300",
+        "padron": "152586",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB EMPLEADOS BCO PCIAL SANTA FE",
+        "superficie": 1783,
+        "actividad_": "19. Club deportivo al aire libre_  21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.691337460688686,
+          -31.612568621254585
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 114,
+        "institucio": "Club de los Abuelos",
+        "direccion": "Belgrano 6130",
+        "padron": "148245",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DE LOS ABUELOS",
+        "superficie": 666,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71664276278182,
+          -31.5755699710426
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 35,
+        "institucio": "Formadores F.C",
+        "direccion": "J. de Arenales 9282",
+        "padron": "130572",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC.MUTUAL SUBOF.Y AGENTES POLICIA",
+        "superficie": 6019,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "ERNESTO SOSA",
+        "telefono": "3425155657",
+        "email": "ernestososadt@hotmail.com",
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.71",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69173268570812,
+          -31.61007284536168
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 71,
+        "institucio": "Club Union y Progreso de Villa Maria Selva",
+        "direccion": "Republica de Siria 6366",
+        "padron": "31613",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC UNION Y PROGRESO V M SELVA",
+        "superficie": 1108.89,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Villarreal Carlos",
+        "telefono": "3424791292",
+        "email": "volver a llamar",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.686570285990506,
+          -31.617324155109774
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 109,
+        "institucio": "Club Atletico Argentina",
+        "direccion": "Alberdi 5749",
+        "padron": "29538",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO ARGENTINO",
+        "superficie": 389,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71914509591525,
+          -31.668009695739503
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 49,
+        "institucio": "Santa Fe Rugby Club",
+        "direccion": "Raul Tacca 500",
+        "padron": "137472",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 45070,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Federico Alzugaray",
+        "telefono": "3424760058",
+        "email": "secretariasfrc@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72319794862497,
+          -31.670477212597113
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 50,
+        "institucio": "Centro de Alto Rendimiento Deportivo (CARD)",
+        "direccion": "Raul Tacca 300",
+        "padron": "137471",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 109150,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71683301548698,
+          -31.59150260909439
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 28,
+        "institucio": "Club Atletico Las Flores II",
+        "direccion": "Juan Larrea 4200",
+        "padron": "106207",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 20304.72,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Juan Garau  Presidente",
+        "telefono": "3425031069",
+        "email": "juangarau3@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70058729521056,
+          -31.665208908498066
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 121,
+        "institucio": "Asociacion Vecinal Pro Mejoras Alto Verde",
+        "direccion": "Demetrio Gomez s/n manzana 13",
+        "padron": "R0007488",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC.VECINAL PRO MEJORAS ALTO VERDE",
+        "superficie": 368,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67736396135308,
+          -31.621151893407514
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 66,
+        "institucio": "Santa Fe Lawn Tenis Club",
+        "direccion": "Almirante Brawn 5500",
+        "padron": "28358",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SANTA FE LAWN TENNIS CLUB",
+        "superficie": 14776,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "58. Restaurante_ 12. Casa de fiestas",
+        "referente": "martin conde",
+        "telefono": "3425460124",
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70083926553411,
+          -31.619881274087934
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 54,
+        "institucio": "Bochas Club Barrio Escalante",
+        "direccion": "Martin Zapata 2751",
+        "padron": "142446",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOCHAS CLUB BARRIO ESCALANTE",
+        "superficie": 965,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Escandolo Ricardo",
+        "telefono": "3425041597",
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71419571857783,
+          -31.627541648081063
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 140,
+        "institucio": "Asociacion Vecinal Union, Progreso y Libertad de Barranquitas",
+        "direccion": "Lopez y Planes 4069",
+        "padron": "48850",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC VEC UN PROG Y LIB BARRANQUITAS",
+        "superficie": 1693,
+        "actividad_": "20. Club deportivo cubierto",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70817930222543,
+          -31.65280422479088
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 160,
+        "institucio": "Jockey Club de Santa Fe",
+        "direccion": "San Martin 1982",
+        "padron": "159758",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOCIACION MUTUAL UNION SOLIDARIA (AMUS)",
+        "superficie": 665,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "12. Casa de fiestas_ 22. Comedor/Espectáculo bailable",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67972916782069,
+          -31.64371265941808
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 156,
+        "institucio": "Club Gimnastico Excursionistas Unidos",
+        "direccion": "Ruta 168 y Vuelta del Paraguayo",
+        "padron": "R0017112",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 7383,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.711311510527864,
+          -31.61825365176975
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 76,
+        "institucio": "Club Atletico Gimnasia y Esgrima de Ciudadela",
+        "direccion": "Martin Zapata 3500",
+        "padron": "47804",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC CLUB ATL GIMNASIA Y ESGRIMA",
+        "superficie": 4641,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": "Sabatini Marcelo",
+        "telefono": "342-4413224",
+        "email": "clubdegimnasiaesgrima@gmail.com",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70793482898922,
+          -31.649994736986947
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 93,
+        "institucio": "Club Centro Español",
+        "direccion": "San Martin 2219",
+        "padron": "13673",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO ESPAÑOL DE STA FE",
+        "superficie": 572,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "12. Casa de fiestas",
+        "referente": "Lapissonde hector presidente",
+        "telefono": "3424217034",
+        "email": "lapissondehector@hotmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71926715105231,
+          -31.654784049188386
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 129,
+        "institucio": "Club Atletico Ferrocarril Oeste",
+        "direccion": "General Lopez 3356",
+        "padron": "69969",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO FERROCARRIL OESTE",
+        "superficie": 1210,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7190007599186,
+          -31.65721918730282
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 82,
+        "institucio": "Club Sportivo Amenabar",
+        "direccion": "Saavedra 1446",
+        "padron": "631",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SPORTIVO AMENABAR",
+        "superficie": 838,
+        "actividad_": "20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": "Motura Jose Luis",
+        "telefono": "342-5097846 / 4596173",
+        "email": "jllombon@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.711193099445275,
+          -31.645883961364287
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 107,
+        "institucio": "Sindicato Argentino de Docentes Particulares SADOP",
+        "direccion": "Tucuman 2955",
+        "padron": "13098",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ARMERIA LAS COLONIAS S.A.",
+        "superficie": 475,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "4. Auditorio cubierto",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.699811388332925,
+          -31.570530982513457
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 30,
+        "institucio": "Escuela de Futbol Favaloro",
+        "direccion": "San Juan 10350",
+        "padron": "169574",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "DIREC.PCIAL.DE VIVIENDA Y URBANISMO",
+        "superficie": 7215,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Beto",
+        "telefono": "342 4761753",
+        "email": "asociacioncivilfavaloro@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.62",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67793251228484,
+          -31.62259119730871
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 62,
+        "institucio": "Club Ferroviario de Santa Fe",
+        "direccion": "Almirante Brawn 5300",
+        "padron": "33411",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB FERROVIARIO DE SANTA FE",
+        "superficie": 7910.72,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Alvarez Walter",
+        "telefono": "3424622616 - 342 527-3833\n",
+        "email": "clubferroviario@gmail.com2",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72614656486256,
+          -31.592814659758712
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 5,
+        "institucio": "Club 7 Jefes",
+        "direccion": "Javier de la Rosa 5200",
+        "padron": "124757",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "TORRES MARIA DEL CARMEN",
+        "superficie": 8651,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Juan Rojas presidente",
+        "telefono": "3426156608",
+        "email": "juanrjs123467@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71651298638072,
+          -31.664358137491476
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 106,
+        "institucio": "Club Social y Deportivo del Personal de Bahco",
+        "direccion": "4 de enero 801",
+        "padron": "137474",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL Y DEP.PERSONAL DE BAHCO",
+        "superficie": 16180,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72917119252707,
+          -31.644427751913273
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 42,
+        "institucio": "Club Deportivo Santa Rosa de Lima",
+        "direccion": "Mendoza 4200",
+        "padron": "134578",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 11837,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Ana Leiva Secretaria y Adolfo Martinez Presi.",
+        "telefono": "3424727015 - 3425364205",
+        "email": "deportivosantarosalacasita@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.41",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73412798711032,
+          -31.66506179467074
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 41,
+        "institucio": "Club C.I.L.S.A.",
+        "direccion": "Av. Circunvalación 400",
+        "padron": "135231",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "C.I.L.S.A.",
+        "superficie": 29999,
+        "actividad_": "20. Centro deportivo cubierto_ 14. Centro Polideportivo al\naire libre",
+        "otra_activ": "Colonia de vacaciones",
+        "referente": "Varela Mauro",
+        "telefono": "3425158800",
+        "email": "cilsa@cilsa.org.ar",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.725162979076934,
+          -31.66319954032459
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 135,
+        "institucio": "Club Atletico Colon",
+        "direccion": "J. J. Paso 3535",
+        "padron": "125054",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO COLON",
+        "superficie": 36943,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71798779299834,
+          -31.641566027233562
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 90,
+        "institucio": "Asociacion Vecinal Cultural y Deportiva Republica del Oeste",
+        "direccion": "Av. Gdor. Freyre 2765",
+        "padron": "5969",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOCIEDAD REPUBLICA DEL OESTE",
+        "superficie": 1682,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": "342 4525929",
+        "email": "vecinalrepublicadeloeste@hotmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71525707294743,
+          -31.640708491528247
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 134,
+        "institucio": "Sindicato Viajantes Unidos de Santa Fe",
+        "direccion": "Hipolito Irigoyen 3361",
+        "padron": "5417",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SINDICATO DE VIAJANTES U SANTA FE",
+        "superficie": 355,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69056021899271,
+          -31.623500275262646
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 55,
+        "institucio": "Bochas Club Sargento Cabral",
+        "direccion": "Padilla 1828",
+        "padron": "25521",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DE BOCHAS SARGENTO CABRAL",
+        "superficie": 791,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "cuggino daniel",
+        "telefono": "342 522 0268",
+        "email": "danielcuggino@hotmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72003817464616,
+          -31.646961880672077
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 89,
+        "institucio": "Club Arenales Reservista",
+        "direccion": "Dr. Zavalla 2242",
+        "padron": "7617",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO GRAL ARENALES RESERV",
+        "superficie": 454,
+        "actividad_": null,
+        "otra_activ": "12. Casa de fiestas",
+        "referente": "Matias Bucci",
+        "telefono": "342 547-8879",
+        "email": "clubarenalesreservistas@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.72",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.688978259226516,
+          -31.617032978962744
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 72,
+        "institucio": "Club Liverpool",
+        "direccion": "Ruperto Godoy 1850",
+        "padron": "97553",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "LIVERPOOL F C",
+        "superficie": 1007,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "actividades recreativas varias_ 12. Casa de fiestas",
+        "referente": "luis hernan iturraspe (Presidente)",
+        "telefono": "3425367562",
+        "email": "ferreteriaarcoiris7@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.722266115398725,
+          -31.659436933896924
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 80,
+        "institucio": "Club Deportivo y Social Alumni",
+        "direccion": "Av. Gdor. Freyre 1176",
+        "padron": "127510",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DEPORTIVO Y SOCIAL ALUMNI",
+        "superficie": 799,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": "0342 519-9920",
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.726872769279744,
+          -31.589204401367006
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 145,
+        "institucio": "Bochas Club Los 40",
+        "direccion": "Pavon 5338",
+        "padron": "42437",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MION DEMETRIO RONCHI",
+        "superficie": 309,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "Bar",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71149377982125,
+          -31.64589928812144
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 95,
+        "institucio": "Centro Balear Santa Fe",
+        "direccion": "4 de enero 2478",
+        "padron": "66410",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO BALEAR",
+        "superficie": 412,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "SONIA DUTRUEL",
+        "telefono": "0342 452-4301\n",
+        "email": "centrobalearsantafe@gmail.com\n",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70469869962458,
+          -31.62524620072903
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 148,
+        "institucio": "Asociacion Vecinal Fomento 9 de Julio",
+        "direccion": "Pedro Ferre 2928",
+        "padron": "22981",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC VECINAL FOMENTO 9 DE JULIO",
+        "superficie": 1337,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.58",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68275515762865,
+          -31.61892318494386
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 58,
+        "institucio": "Club Atletico Villa Dora",
+        "direccion": "Ruperto Godoy 1231",
+        "padron": "59049",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO VILLA DORA",
+        "superficie": 738.9,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Ramseyer Adrian",
+        "telefono": "3425489440",
+        "email": "villadorasec@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68339097612655,
+          -31.584889446074712
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 36,
+        "institucio": "Cosmos Futbol Club",
+        "direccion": "Callejon Funes 2150",
+        "padron": "34401",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MISTA FLORENTINO DOMINGO",
+        "superficie": 60006,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Birollo Leandro",
+        "telefono": "3424239403",
+        "email": "instagram.com/cosmosfutbol",
+        "distrito": "NORESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.722170571690675,
+          -31.65185648303919
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 163,
+        "institucio": "Fundacion Evangelica del Litoral",
+        "direccion": "Dr. Zavalla 1861",
+        "padron": "8716",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "FUNDACION BRAZOS ABIERTOS",
+        "superficie": 847,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.727071529213134,
+          -31.639721803177842
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 52,
+        "institucio": "Club de Bochas Los Ases",
+        "direccion": "Magallanes 4224",
+        "padron": "66450",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOCHAS CLUB LOS ASES",
+        "superficie": 286.11,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "JOSE FRUTOS",
+        "telefono": "342-4053299",
+        "email": "losasesbochaclub@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.745805295505605,
+          -31.56108716076646
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 13,
+        "institucio": "Defensores El Poli",
+        "direccion": "Cnel. F. Loza 7100",
+        "padron": "205375",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 75515.59,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Diego Veron Presidente",
+        "telefono": "3426507177",
+        "email": "pablodiegoveron27@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72568119733642,
+          -31.56649026028273
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 32,
+        "institucio": "Independiente de Cabaña Leiva",
+        "direccion": "Diez de Andino 5732",
+        "padron": "179494",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BERNO RITA GELINDA",
+        "superficie": 8525.03,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Marta presidenta",
+        "telefono": "3425324742",
+        "email": "no usa mail",
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.664215781825476,
+          -31.596842452648602
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 152,
+        "institucio": "Sindicato de Luz y Fuerza de Santa Fe",
+        "direccion": "Riobamba 8400",
+        "padron": "210235",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SIND DE TRABAJADORES DE LUZ Y FUERZA DE STA FE",
+        "superficie": 24289.28,
+        "actividad_": "20. Club deportivo cubierto_ 14. Centro Polideportivo al aire libre",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.664762772965986,
+          -31.60053364555818
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 37,
+        "institucio": "Ciclon Racing FC",
+        "direccion": "Riobamba 8000",
+        "padron": "75903",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 31222,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Rafael Suarez",
+        "telefono": "3424080389",
+        "email": "jr.salemi@fibertel.com",
+        "distrito": "NORESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7176136116911,
+          -31.56866672251043
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 29,
+        "institucio": "Club Santa Rita",
+        "direccion": "C. Larguia 10050",
+        "padron": "168768",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "DIREC.PCIAL.DE VIVIENDA Y URBANISMO",
+        "superficie": 15030.35,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Fabian Soda",
+        "telefono": "3424450759",
+        "email": "sodafabian9@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71190651234383,
+          -31.624865498177137
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 165,
+        "institucio": "Bochas Club \"El Litoral\"",
+        "direccion": "P. Zenteno 3450",
+        "padron": "66003",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOCHAS CLUB EL LITORAL",
+        "superficie": 425,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.51",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.727686627814954,
+          -31.64083080633874
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 51,
+        "institucio": "Club Bochas La Pampita",
+        "direccion": "La Rioja 4253",
+        "padron": "6974",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "PAMPITA BOCHAS CLUB",
+        "superficie": 446.8,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Narváez Oscar",
+        "telefono": "3425262700",
+        "email": "petro_enzo59@hotmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.94",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.713812788796936,
+          -31.651087705425482
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 94,
+        "institucio": "Club Gimnasia y Esgrima de Santa Fe",
+        "direccion": "4 de enero 2031",
+        "padron": "132088",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB GIMNASIA Y ESGRIMA DE SANTA FE",
+        "superficie": 5600.54,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "6. Jardin de infantes particular",
+        "referente": null,
+        "telefono": "0342 458-9791",
+        "email": "clubdegymnasiayesgrima@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71493686430452,
+          -31.58704815139592
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 25,
+        "institucio": "Club Atletico Sportivo Castelli",
+        "direccion": "french y aguado",
+        "padron": "C0300041",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 2923.56,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "ricardo",
+        "telefono": "3425561248",
+        "email": "contestador",
+        "distrito": "NORTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72813123696689,
+          -31.580483364861788
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 115,
+        "institucio": "Sindicato de Obreros de Estaciones de Servicio, Garages, Playas y Lavaderos Automaticos",
+        "direccion": "Blas Parera 8571",
+        "padron": "136102",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SIND. OBREROS DE ESTAC. DE SERVICIO",
+        "superficie": 9975,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "12. Casa de fiestas",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68955033666579,
+          -31.61111216551877
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 64,
+        "institucio": "Deportivo Central Villa Maria Selva",
+        "direccion": "Ricardo Aldao 2050",
+        "padron": "82036",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DEPORTIVO VILLA MARIA SELVA",
+        "superficie": 986,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Rafael zetola",
+        "telefono": "155215460",
+        "email": "volver a llamar",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.689123788972196,
+          -31.61084417591727
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 110,
+        "institucio": "Asociacion Italo Argentino Figli di Lioni",
+        "direccion": "Alvear 6379",
+        "padron": "31653",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC ITALO ARGENTINA HIJOS DE LIONI",
+        "superficie": 427,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73335797650111,
+          -31.56876639749747
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 2,
+        "institucio": "Barcelona Jr.",
+        "direccion": "ex combatientes de malvina 62000",
+        "padron": "178351",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 5000,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "Taborda Adriana",
+        "telefono": "3425956015",
+        "email": "adrianataborda2204@hotmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72260517152604,
+          -31.563897916465564
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 34,
+        "institucio": "Club La Salle",
+        "direccion": "Juan Arzeno 10400",
+        "padron": "144735",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "INSTITUTO DE VIDA CONSAGRADA HNOS DE LAS ESC. CRISTIANAS (HNOS DE LA SALLE)",
+        "superficie": 97224,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "lucas Yori Presidente",
+        "telefono": "154290930",
+        "email": "cpncesarrodriguez@hotmail.com",
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74245150641924,
+          -31.57168367143923
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 11,
+        "institucio": "Deportivo Gambeta",
+        "direccion": "R.P.G. Furlong 9150",
+        "padron": "42750",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "PARMA NOEMI ALICIA",
+        "superficie": 7615,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Nora Villalba",
+        "telefono": "3426287574",
+        "email": "Noravillalba1234@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69625822189727,
+          -31.604413217138553
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 143,
+        "institucio": "Club Sportivo Belgrano",
+        "direccion": "Obispo Boneo 2751",
+        "padron": "35058",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SPORTIVO BELGRANO",
+        "superficie": 433,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "12. Casa de fiestas",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69520515478254,
+          -31.63697959595574
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 128,
+        "institucio": "Club Argentino",
+        "direccion": "Bv. Galvez 1886",
+        "padron": "17978",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ARGENTINO EX CHANTA CUATRO",
+        "superficie": 600,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "Club social, deportivo y cultural",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71484162519571,
+          -31.615012884661454
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 75,
+        "institucio": "Club Infantil Defensores de Peñaloza",
+        "direccion": "Regis Martinez 3850",
+        "padron": "68237",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "GAIMAN SOC A.I.C.F.I.A.C.",
+        "superficie": 11621,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Córdoba Mauricio",
+        "telefono": "3425157942",
+        "email": "ciddp1987@gmail.com",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.77",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72718020280407,
+          -31.603648680638067
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 77,
+        "institucio": "Jockey Club",
+        "direccion": "Blas Parera 6107",
+        "padron": "54208",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "JOCKEY CLUB SANTA FE",
+        "superficie": 545550,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "colonia de vacaciones",
+        "referente": "Carlos Destafini Presidente",
+        "telefono": "342 4390199",
+        "email": "sociojcsf@gmail.com",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.598108725820985,
+          -31.651184019949415
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 19,
+        "institucio": "Club Santafesino de Caza Y Pesca",
+        "direccion": "Ruta 168 - km. 479,50 Colastine Sur",
+        "padron": "R0012240",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - FFCC",
+        "superficie": 26217,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Sasvata Carlos capitan y tesorero",
+        "telefono": "342-5466968",
+        "email": "meldaniarodas@hotmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68018656923194,
+          -31.642235776588123
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 23,
+        "institucio": "Yacht Club Santa Fe",
+        "direccion": null,
+        "padron": "R0007322",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "YACHT CLUB SANTA FE",
+        "superficie": 10674,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": "342 - 5059989",
+        "email": "ycsf@ycfs.org.ar",
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71653529193891,
+          -31.574547463129893
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 27,
+        "institucio": "Asociación Civil de Formadores F C Santa Fe",
+        "direccion": "J. de Arenales 9350",
+        "padron": "130577",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC.MUTUAL SUBOF.Y AGENTES POLICIA",
+        "superficie": 17037,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Sosa Ernesto",
+        "telefono": "3425155657",
+        "email": "ernestososadt@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70691177836313,
+          -31.62974377637121
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 103,
+        "institucio": "Club Soacial y Sportivo Quilmes",
+        "direccion": "4 de enero 4002",
+        "padron": "69984",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SPORTIVO QUILMES DE BOCHAS",
+        "superficie": 347,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.60040823406108,
+          -31.628834081641138
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 22,
+        "institucio": "Asociacion Civil Colastiné Norte Futbol Club",
+        "direccion": "Los eucaliptus 6314",
+        "padron": "R0016250",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 6115,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "instagram.com/colastinenortef.coficial",
+        "telefono": "0342 15-531-4897",
+        "email": "Colastinenorteclub@hotmail.com\n",
+        "distrito": "LA COSTA",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69239769991626,
+          -31.599331593110985
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 136,
+        "institucio": "Centro Aristobulo del Valle Educativo y Social",
+        "direccion": "Javier de la Rosa 2565",
+        "padron": "38091",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CTRO A DEL VALLE EDUCATIVO Y SOCIAL",
+        "superficie": 262,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71410095499639,
+          -31.668544342618034
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 98,
+        "institucio": "Club Nautico Sur",
+        "direccion": "Av. Circunvalacion y 1º de Mayo",
+        "padron": "132615",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB NAUTICO SUR",
+        "superficie": 9991.64,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "Flor Balbarrey presidenta - Luciano Coor",
+        "telefono": "3425459691 - 3424666027",
+        "email": "cns@clubnauticosur.org.ar",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69419096986101,
+          -31.597340789959468
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 61,
+        "institucio": "Club De Football Pucara",
+        "direccion": "12 de Infanteria 2750",
+        "padron": "36649",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 1,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Amarilla gabriel presidente",
+        "telefono": "3425663735",
+        "email": "clubpucara2023@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67613692016642,
+          -31.640009489364598
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 17,
+        "institucio": "Predio UNL- ATE",
+        "direccion": "Av Alicia Moreau de Justo S/N",
+        "padron": "R0017088",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "UNIVERSIDAD NAC.DEL LIT.",
+        "superficie": 69312.84,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Sosa Horacio",
+        "telefono": "342-4688839",
+        "email": "coopdeportes@gmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.704715999272935,
+          -31.64422186209536
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 88,
+        "institucio": "Club Social Sirio Libanes",
+        "direccion": "25 de mayo 2740",
+        "padron": "179059",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL SIRIO LIBANES",
+        "superficie": 1403.52,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "lorena cordoba secretaria -",
+        "telefono": "4539518 - 0342 649-0374",
+        "email": "siriolibanes_stafe@hotmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72618897397377,
+          -31.645065819136672
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 40,
+        "institucio": "Club Atletico Newell`s Olds Boys",
+        "direccion": "J.D. de Solis 2200",
+        "padron": "133745",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO NEWELLS OLD BOYS",
+        "superficie": 12891.74,
+        "actividad_": null,
+        "otra_activ": "11.  Asociacion de profesionales y de promocion sin fines de lucro_colonia de vacaciones",
+        "referente": "Cantero Miguel Presidente",
+        "telefono": "3425663861",
+        "email": "miguelacantero2017@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.75769147756136,
+          -31.557216354767192
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 9,
+        "institucio": "Club Hipico Gral Belgrano",
+        "direccion": "Av. Circunvalacion Norte",
+        "padron": "201100",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 242282.42,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "nacho la saga",
+        "telefono": "3425248674",
+        "email": "nachoo.lassaga@hotmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69581619769951,
+          -31.618601294937815
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 158,
+        "institucio": "Centro Friulano de Santa Fe",
+        "direccion": "Salvador del Carril 2394",
+        "padron": "27602",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO FRIULANO",
+        "superficie": 252,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69768556462692,
+          -31.61802200558925
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 111,
+        "institucio": "Union Polaca y ex-combatientes “Dom Polski”",
+        "direccion": "Aristobulo del Valle 5444",
+        "padron": "69540",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "UNION POLACA Y EX-COMBAT.DON POLSKY",
+        "superficie": 938,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "22. Comedor/Espectáculo bailable",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.720497307250305,
+          -31.667238374301956
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 53,
+        "institucio": "Tiro Federal Argentino",
+        "direccion": "Bolivar 3000",
+        "padron": "144769",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC. TIRO FED. ARG. DE SANTA FE",
+        "superficie": 47531.97,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "SCOLNIK ROBERT",
+        "telefono": "4599990",
+        "email": "tirosantafe@hotmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67704495220621,
+          -31.61521315803606
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 146,
+        "institucio": "Union para los Discapacitados UNIPADIS",
+        "direccion": "Pedro de Vega 801",
+        "padron": "31036",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "UNION PARA DISCAPACITADOS-UNIPADIS",
+        "superficie": 511,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7058969534916,
+          -31.61800366286292
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 124,
+        "institucio": "Club Centro Castellano",
+        "direccion": "Facundo Zuviria 5263",
+        "padron": "48031",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO CASTELLANO DE SANTA FE",
+        "superficie": 1200,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72806101427835,
+          -31.643252043706916
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 43,
+        "institucio": "Club El Bochazo",
+        "direccion": "Juan Díaz de Solís 2349",
+        "padron": "7463",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "LUCIANO EDUARDO MANUEL",
+        "superficie": 337,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Daniel Leiva",
+        "telefono": "3425436049",
+        "email": "clubbochofilobochazo@gmail.com\n",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70597034940691,
+          -31.620145145460082
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 144,
+        "institucio": "Centro Laziale de Santa Fe",
+        "direccion": "Pje. J.M. Cullen 3122",
+        "padron": "47712",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO LAZIALE DE SANTA FE",
+        "superficie": 276.42,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.62066787392318,
+          -31.64394062797779
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 24,
+        "institucio": "Club Atletico Velocidad y Resistencia",
+        "direccion": "RN168 KM 467. Colastine",
+        "padron": "R0005771",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO VELOCIDAD Y RESISTENC",
+        "superficie": 1132,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "OSCAR VERA",
+        "telefono": "342 - 5028598",
+        "email": "veramirez48@hotmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70560308727592,
+          -31.612500302199884
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 74,
+        "institucio": "Bochas Club Los Hornos",
+        "direccion": "Huergo 3246",
+        "padron": "50442",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO RECREATIVO Y CULT.LOS HORNOS",
+        "superficie": 325,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Jose Luis Aranda",
+        "telefono": "342 4667344",
+        "email": "jlaranda2004@yahoo.com.ar",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.78",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.708006094294646,
+          -31.6078830739689
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 78,
+        "institucio": "Club Social y Deportivo Granaderos",
+        "direccion": "Av. Gdor. Freyre 6245",
+        "padron": "50784",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL Y DEP GRANADEROS",
+        "superficie": 384,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "sergio picatto ( presidente)",
+        "telefono": "3426981708",
+        "email": "checho-pica@hotmail.com",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70386679130009,
+          -31.602730752166504
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 123,
+        "institucio": "Campo Universitario UNL",
+        "direccion": "Dr. E. Zeballos 3300",
+        "padron": "51650",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "UNIV. NAC. DEL LITORAL (U.N.L.)",
+        "superficie": 23502,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": "Colonias de vacaciones",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72905012790188,
+          -31.59878387156798
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 8,
+        "institucio": "Club Cabal\n",
+        "direccion": "Servando Bayo 6730",
+        "padron": "81588",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CONTIGIANI AURELIO AMADO",
+        "superficie": 900,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "SANCHEZ LARISA",
+        "telefono": "342-4215369",
+        "email": "larisa.sanchez@hotmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6790868413398,
+          -31.609916813661467
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 118,
+        "institucio": "Asociacion por la inclusion de las personas con discapacidad HO.MI.MEN",
+        "direccion": "Castelli 1145",
+        "padron": "33840",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOCIACION POR LA INCLUSION DE LAS PERSONAS CON DISCAPACIDAD HO.MI.MEN.",
+        "superficie": 1381.2,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71864565339667,
+          -31.65698764736882
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 101,
+        "institucio": "Centro Piamontes de Santa Fe Asociacion Cultural y Recreativo",
+        "direccion": "3 de febrero 3253",
+        "padron": "602",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO PIAMONTES ASOC.CULTUR.Y REC.",
+        "superficie": 807.2,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68438299028096,
+          -31.641899369622962
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 87,
+        "institucio": "Club Regatas Santa Fe",
+        "direccion": "Av. Alem 3288",
+        "padron": "16901",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DE REGATAS SANTA FE",
+        "superficie": 3115,
+        "actividad_": "21. Club social y cultural_ 25. Estadio cubierto_ 26. Gimnasio deportivo con o sin natatorio, con o sin aparatos",
+        "otra_activ": "– colonia de vacaciones- 6. Jardin de infantes particular – 58. Restaurante",
+        "referente": "Mallia Marcelo",
+        "telefono": "3426159961",
+        "email": "secretariaclubregatas@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.718099805788874,
+          -31.640412696676318
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 45,
+        "institucio": "Club Social, cultural y deportivo Independiente",
+        "direccion": "Dr. M. Zavalla 2850",
+        "padron": "5546",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SOC CLUB DE BOCHAS INDEPENDIENTE",
+        "superficie": 1304,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Mateos Melina presidenta",
+        "telefono": "342 5035133",
+        "email": "clubindependientestafe@hotmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.57",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6947986395254,
+          -31.628416392332497
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 57,
+        "institucio": "Club Atletico Alvear",
+        "direccion": "Las Heras 4408",
+        "padron": "22705",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO SOCIAL SPORTIVO ALVEA",
+        "superficie": 535,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Olivera Gaston",
+        "telefono": "3426131697",
+        "email": "secretariadetenis@gmail.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.700036866076054,
+          -31.616423345689917
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 108,
+        "institucio": "American Club Social y Deportivo",
+        "direccion": "9 de Julio 5562",
+        "padron": "27895",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "AMERICAN CLUB SOCIAL Y DEPORTIVO",
+        "superficie": 451,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.685252078042105,
+          -31.608686708306653
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 119,
+        "institucio": "Club Deportivo y Social Domingo Sarmiento",
+        "direccion": "Castelli 1745",
+        "padron": "69765",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB DEP SOCIAL DOMINGO F SARMIENTO",
+        "superficie": 693,
+        "actividad_": "20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.665952313830346,
+          -31.600499025201906
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 113,
+        "institucio": "Clib Vial Santa Fe",
+        "direccion": "Azcuenaga 201",
+        "padron": "42992",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 285,
+        "actividad_": "14. Centro Polideportivo al aire libre_ 20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.665534263240474,
+          -31.598592196736192
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 151,
+        "institucio": "Asociacion Cultural Ucraniana, Rusa y Bielorusa \"Ivan Franko\"",
+        "direccion": "Riobamba 8133",
+        "padron": "33310",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB CULTURAL UKRANIANO BIELO-RUSO IVAN FRANKO",
+        "superficie": 754.68,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.711146681138814,
+          -31.630600964970874
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 157,
+        "institucio": "Rotary Club Noroeste",
+        "direccion": "Saavedra 3744",
+        "padron": "45761",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ROTARY CLUB STA. FE NOROESTE L Y P",
+        "superficie": 405,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71151081863929,
+          -31.622862219254213
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 147,
+        "institucio": "Centro Social y Recreativo El Angelito",
+        "direccion": "Pedro Diaz Colodrero 3464",
+        "padron": "47112",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CENTRO SOC. Y REC.\"EL ANGELITO\"",
+        "superficie": 309,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.63",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69377910669993,
+          -31.618540279417946
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 63,
+        "institucio": "Club Social y Deportivo 1° de Septiembre",
+        "direccion": "Belgrano 5463",
+        "padron": "27551",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL Y DEPORTIVO 1 SETIEMBRE",
+        "superficie": 274,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "franco Laura tesorera",
+        "telefono": "342-4421638",
+        "email": "firu@live.com",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5976525225309,
+          -31.627065818276552
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 137,
+        "institucio": "Sindicato de Trabajadores de Industrias de la Alimentacion - Santa Fe",
+        "direccion": "Bv. Las Grevileas 6630",
+        "padron": "R0005024",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SIND. DE TRAB. DE LA IND. DE ALIM.",
+        "superficie": 5005,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": "44. Camping",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68117777726173,
+          -31.616624320117914
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 65,
+        "institucio": "I.C.D. Provincial Club",
+        "direccion": "Avellaneda 5940",
+        "padron": "30246",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "INST CULTURAL DEPORTIVO",
+        "superficie": 416,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "Escudero Martin Enrique",
+        "telefono": "342-4081583",
+        "email": "tinchoesc@hotmail.com\n",
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69905164848171,
+          -31.627287252989266
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 164,
+        "institucio": "Club Veteranos Barrio Oser",
+        "direccion": "P. Zenteno 2428",
+        "padron": "70014",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB VETERANOS BARRIO OSER",
+        "superficie": 434,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.60762662349863,
+          -31.62689647180559
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 154,
+        "institucio": "Asociacion Sindical de Obreros y Empleados de la Municipalidad de Santa Fe (ASOEM)",
+        "direccion": "Ruta 1 Km 2,5",
+        "padron": "R0003811",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "A.S.O.E.M.",
+        "superficie": 9555,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71988137997577,
+          -31.661563107495933
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 125,
+        "institucio": "Club Atletico Villa Devoto",
+        "direccion": "Francia 1041",
+        "padron": "2591",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO VILLA DEVOTO",
+        "superficie": 323,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71582950730926,
+          -31.631986542626027
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 139,
+        "institucio": "Club Atletico Union",
+        "direccion": "Lopez y Planes 3553",
+        "padron": "48491",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB ATLETICO UNION",
+        "superficie": 23397.04,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural_ 26. Gimnasio deportivo con o sin natatorio, con o sin aparatos",
+        "otra_activ": "Colonias de vacaciones",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68958121288995,
+          -31.574338551240004
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 38,
+        "institucio": "Club Banco Provincial Santa Fe",
+        "direccion": "Av Aristóbulo del Valle 9986",
+        "padron": "206266",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CAJA MUTUAL DEL PERSONAL DEL BANCO PROVINCIA DE SANTA FE",
+        "superficie": 17350.97,
+        "actividad_": "19. Club deportivo al aire libre_  21. Club social y cultural",
+        "otra_activ": null,
+        "referente": "Alejandro Schiavetti Gerente Ejecutivo \n",
+        "telefono": "3424362672",
+        "email": "alejandroschiavetti@hotmail.com",
+        "distrito": "NORESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.70784435525638,
+          -31.65762499415333
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 84,
+        "institucio": "Club Ateneo Inmaculada",
+        "direccion": "Cruz Roja Argentina 1565",
+        "padron": "206635",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC. CIVIL COLEGIO DE LA INMACULADA CONCEPCION",
+        "superficie": 8950.39,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Gabriel Ruiz",
+        "telefono": "3424410247",
+        "email": "secretariageneral@colegioinmaculada.edu.ar",
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72337063000007,
+          -31.67117819000766
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 48,
+        "institucio": "Club social y deportivo Centenario",
+        "direccion": "Cristobal Colon y Raul Tacca",
+        "padron": null,
+        "latitud": -31.67117819,
+        "longitud": -60.72337063,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 3222.155,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Martinez Analia presidenta",
+        "telefono": "3425684470",
+        "email": "analiamartinez240@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69482086386508,
+          -31.6708204854299
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 16,
+        "institucio": "Arroyo Seco",
+        "direccion": "Manzana 6 Alto Verde",
+        "padron": null,
+        "latitud": -31.670861566070972,
+        "longitud": -60.694542755361596,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA",
+        "superficie": 10331.591,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "secretario: Mariano Montagna - Brenda Alvarez",
+        "telefono": "3424787354 - 3426157776",
+        "email": "arroyitoseco.altoverde@gmaim.com",
+        "distrito": "LA COSTA",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.726145178132704,
+          -31.654728366070504
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 131,
+        "institucio": "Bochas Club Bartolome Mitre",
+        "direccion": "General Lopez 3829",
+        "padron": "384",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BARTOLOME MITRE BOCHAS CLUB",
+        "superficie": 571,
+        "actividad_": "20. Club deportivo cubierto",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69987157000007,
+          -31.654447060007648
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 149,
+        "institucio": "Club Marinas Puerto Santa Fe",
+        "direccion": "PUERTO SANTA FE DIQUE I 1 EXTREMO SUR S/N",
+        "padron": null,
+        "latitud": -31.65444706,
+        "longitud": -60.69987157,
+        "propietari": "ADM.GRAL.DE PUERTOS",
+        "superficie": 6552.937,
+        "actividad_": "20. Club deportivo cubierto_ 26. Gimnasio deportivo con o sin natatorio, con o sin aparatos",
+        "otra_activ": "11. Asociaciones de profesionales y de promocion sin fines de lucro",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "ADM.GRAL.DE PUERTOS"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.694785371328074,
+          -31.654523830043644
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 20,
+        "institucio": "Defensores de la 1 de Alto Verde",
+        "direccion": "Manzana 1 Alto verde",
+        "padron": null,
+        "latitud": -31.65415977,
+        "longitud": -60.69515701,
+        "propietari": "SOSA ANTONIO",
+        "superficie": 2668.995,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Zavala Victor",
+        "telefono": "3425522991",
+        "email": "clubdefensoresdealtoverde@gmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73564066000007,
+          -31.653137720007667
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 47,
+        "institucio": "Club 12 de Octubre",
+        "direccion": "Moreno y Padre Quiroga",
+        "padron": null,
+        "latitud": -31.65313772,
+        "longitud": -60.73564066,
+        "propietari": "S/D",
+        "superficie": 2647.36,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Acosta Karen",
+        "telefono": "3425505408",
+        "email": "acostakarenailen6@gmail.com",
+        "distrito": "SUROESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.682175020000074,
+          -31.644598600007665
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 120,
+        "institucio": "Asociacion Civil Tribu Isleña Los Tobas",
+        "direccion": "Demetrio Gomez s/n B° Alto Verde",
+        "padron": null,
+        "latitud": -31.6445986,
+        "longitud": -60.68217502,
+        "propietari": "CAPUTTO CARLOS NAHUEL",
+        "superficie": 4482.94,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": "62. Guardería Náutica",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66910701000005,
+          -31.643629330007645
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 15,
+        "institucio": "Agrupacion Vuelta del Paraguayo",
+        "direccion": "Isla Silgaredo S/N, al fondo.",
+        "padron": null,
+        "latitud": -31.64362933,
+        "longitud": -60.66910701,
+        "propietari": "CAPUTTO CARLOS NAHUEL",
+        "superficie": 2925.208,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Dangelo Domingo",
+        "telefono": "3425018137",
+        "email": "mingodangelo@hotmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.686592894475204,
+          -31.643222695264463
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 86,
+        "institucio": "Club Nautico Azopardo",
+        "direccion": "Av. Alem 3092",
+        "padron": null,
+        "latitud": -31.64305244444179,
+        "longitud": -60.686602391903385,
+        "propietari": "ADM.GRAL.DE PUERTOS",
+        "superficie": 11535.467,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": "62. Guardería Náutica_ actividades recreativas_deportivos y nauticos (art)_ 58. Restaurante_ 12. Casa de fiestas – 23. Confitería Bailable",
+        "referente": "Cremon Fabio/ OSCAR NICOLA",
+        "telefono": "3425217872",
+        "email": "oscarnicola@gmail.com",
+        "distrito": "CENTRO",
+        "titular_te": "ADM.GRAL.DE PUERTOS"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66555735000006,
+          -31.64105093000766
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 21,
+        "institucio": "Escuela Tupa de Remo y Triatlon",
+        "direccion": "Colastine Ruta Pcial Nº 168 km 472 lado sur",
+        "padron": null,
+        "latitud": -31.64105093,
+        "longitud": -60.66555735,
+        "propietari": "S/D",
+        "superficie": 2526.728,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Pablo Sanchis tesoro",
+        "telefono": "154294868",
+        "email": "escuelatupa@gmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.712823090000064,
+          -31.640758480007666
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 133,
+        "institucio": "Club Social Cultural y Deportivo El Clasico",
+        "direccion": "Hipolito Irigoyen 3179",
+        "padron": "67242",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB SOCIAL CRALY DEPORTIVO EL CLAS",
+        "superficie": 560,
+        "actividad_": "20. Club deportivo cubierto_ 21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "CENTRO",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.65620052000005,
+          -31.636735910007662
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 18,
+        "institucio": "Centro Cultural y Deportivo el Pozo MTI",
+        "direccion": "Alejandro Grecca 1136",
+        "padron": null,
+        "latitud": -31.63673591,
+        "longitud": -60.65620052,
+        "propietari": "S/D",
+        "superficie": 7331.552,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "juan Manuel Callone",
+        "telefono": "342 4360744",
+        "email": "centroculturalydeportivoelpozo@gmail.com    jm.callone@gmail.com",
+        "distrito": "LA COSTA",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.61091771000005,
+          -31.625149270007668
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 141,
+        "institucio": "UPCN Seccional Santa Fe",
+        "direccion": "Los Eucaliptus 9999",
+        "padron": null,
+        "latitud": -31.62514927,
+        "longitud": -60.61091771,
+        "propietari": "S/D",
+        "superficie": 107346.972,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "29. Jardín Zoológico_ 31. Hotel/Hostería",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.61726147000006,
+          -31.62431857000766
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 155,
+        "institucio": "Solares de la Laguna SA",
+        "direccion": "Ruta 1 Km 2,5 Los Eucaliptus",
+        "padron": null,
+        "latitud": -31.62431857,
+        "longitud": -60.61726147,
+        "propietari": "LOPEZ ROBERTO ENRIQUE",
+        "superficie": 52518.28,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": "31. Hotel/Hostería_ 58. Restaurante",
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71545116000006,
+          -31.619968160007662
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 122,
+        "institucio": "Club Chacarita Junior",
+        "direccion": "Ecuador 3733",
+        "padron": null,
+        "latitud": -31.61996816,
+        "longitud": -60.71545116,
+        "propietari": "S/D",
+        "superficie": 366.574,
+        "actividad_": "21. Club social y cultural",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.60717003458417,
+          -31.615506481678164
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 117,
+        "institucio": "Club Iñalu",
+        "direccion": "Cjon. Laborie 5500",
+        "padron": "R0002875",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "GIANFELICI FRANCISCO S",
+        "superficie": 21577,
+        "actividad_": "14. Centro Polideportivo al aire libre",
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.68",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.666001843620364,
+          -31.60806174956699
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 68,
+        "institucio": "Club de Niños Manuel Belgrano",
+        "direccion": "Av Altte Brown 6950",
+        "padron": "179052",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "SUPERIOR GOBIERNO DE LA PROVINCIA DE SANTA FE. MINISTERIO DE SEGURIDAD",
+        "superficie": 21646,
+        "actividad_": "19. Club deportivo al aire libre_  20. Club deportivo cubierto",
+        "otra_activ": "colonia de vacaciones",
+        "referente": "Pato Herrera presidente",
+        "telefono": "342-5590024",
+        "email": "\"cnmb.sfe@gmail.com / secretaria_clubmanuelbelgrano@hotmail.com.ar",
+        "distrito": "ESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72327006000006,
+          -31.604186050007677
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 79,
+        "institucio": "Club Hipodromo las flores",
+        "direccion": "Av. Blas Parera 6300",
+        "padron": null,
+        "latitud": -31.60418605,
+        "longitud": -60.72327006,
+        "propietari": "JOCKEY CLUB SANTA FE",
+        "superficie": 545550,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Pilar Gonzales",
+        "telefono": "342- 6132239",
+        "email": "marianayjerepupi@gmail.com",
+        "distrito": "OESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.73",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6978853557516,
+          -31.596962246671218
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 73,
+        "institucio": "Deportivo Agua FC",
+        "direccion": "4 de enero 7600",
+        "padron": null,
+        "latitud": -31.59682269,
+        "longitud": -60.69762886,
+        "propietari": "S/D",
+        "superficie": 5986.981,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "\"Alejandro Forni Secretario",
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72439298000006,
+          -31.592758370007665
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 10,
+        "institucio": "Club Atletas de Cristo",
+        "direccion": "Avenida Blas Parera 7450",
+        "padron": null,
+        "latitud": -31.59275837,
+        "longitud": -60.72439298,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 7467.538,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Marianela",
+        "telefono": "3424217564",
+        "email": "marianelagarcia.mg22@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72095733189834,
+          -31.591704798072538
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 31,
+        "institucio": "Futbol 12 de Infanteria",
+        "direccion": "Alero Las Flores",
+        "padron": null,
+        "latitud": -31.59174699,
+        "longitud": -60.72012323,
+        "propietari": "DIREC.PCIAL.DE VIVIENDA Y URBANISMO",
+        "superficie": 2249.166,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Mario de la Bianca",
+        "telefono": "3424632981",
+        "email": "jonatanjocelyn24@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73986665000007,
+          -31.581451640007675
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 6,
+        "institucio": "Club Social y Deportivo Los Canarios",
+        "direccion": "Berutti 6500",
+        "padron": null,
+        "latitud": -31.58145164,
+        "longitud": -60.73986665,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 6763.129,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Cano Mario",
+        "telefono": "3426127271",
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.715634010000066,
+          -31.57912680000766
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 33,
+        "institucio": "Fenix",
+        "direccion": "Azcuenaga y Cjon. Funes",
+        "padron": null,
+        "latitud": -31.5791268,
+        "longitud": -60.71563401,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 5000,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Eduardo Carabajal",
+        "telefono": "3424226276",
+        "email": "Toti.carabajal.22@gmail.com",
+        "distrito": "NORTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.734567976516026,
+          -31.57506076259398
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 7,
+        "institucio": "Club Social y Deportivo Villa Teresa",
+        "direccion": "F. Fernandez 6200",
+        "padron": "57195",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ALZAMORA EDGARDO ANTONIO",
+        "superficie": 5142.881,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Ricardo Ruiz Diaz",
+        "telefono": "3425674161",
+        "email": "asocvillateresa@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.75041012000007,
+          -31.57289986000767
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 14,
+        "institucio": "Club Social y Deportivo Los Jesuitas",
+        "direccion": "Ulrico Schmildl y Diag. Obligado",
+        "padron": null,
+        "latitud": -31.57289986,
+        "longitud": -60.75041012,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 13000,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Sebastian Gamarra- Graciela Miranda Presidente",
+        "telefono": "3425413033",
+        "email": "gamarraseba02@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74215328000006,
+          -31.57248185000768
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 1,
+        "institucio": "Asociacion Deportiva y Social Loyola Santa Fe",
+        "direccion": "Alfoncina Storni 6580",
+        "padron": "42794",
+        "latitud": -31.57248185,
+        "longitud": -60.74215328,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 12367.65,
+        "actividad_": "19. Club deportivo al aire libre",
+        "otra_activ": null,
+        "referente": "patricial alliana-juan blanco",
+        "telefono": "3425213933-3425698166",
+        "email": "club.loyola@outlook.com",
+        "distrito": "NOROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73425885000007,
+          -31.571703930007676
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 12,
+        "institucio": "El Apache Furbol Club",
+        "direccion": "teniente loza entre 6900 y 6800",
+        "padron": null,
+        "latitud": -31.57170393,
+        "longitud": -60.73425885,
+        "propietari": "CORPORACION DEL LITORAL S.A.",
+        "superficie": 4031.829,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Vanesa Tapon",
+        "telefono": "3425876581",
+        "email": "vanesatapon@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73204098000007,
+          -31.56221597000767
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 3,
+        "institucio": "Centro Infantil y Deportivo Nuevo Horizonte",
+        "direccion": "Pedro Espinosa 6200",
+        "padron": null,
+        "latitud": -31.56221597,
+        "longitud": -60.73204098,
+        "propietari": "S/D",
+        "superficie": 9530.991,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Benitez Jose Luis",
+        "telefono": "3425924600",
+        "email": "joselliuisbenitez@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7320332032987,
+          -31.56215044965801
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 4,
+        "institucio": "Club Nuevo Horizonte",
+        "direccion": "Pedro Espinosa 6200",
+        "padron": null,
+        "latitud": -31.56221597,
+        "longitud": -60.73204098,
+        "propietari": "S/D",
+        "superficie": 9530.991,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "ANIBAL MACHADO",
+        "telefono": "154857306",
+        "email": "majoanibal18@gmail.com",
+        "distrito": "NOROESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.46",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71614325223669,
+          -31.66555912397051
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 46,
+        "institucio": "Querandíes Rugby Club",
+        "direccion": "Raul Tacca y 4 de enero",
+        "padron": "153718",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC.COOP.COLEGIO NAC.S.DE IRIONDO",
+        "superficie": 47668.724,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.99",
+      "geometry": null,
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 99,
+        "the_geom": null,
+        "institucio": "Futbol Femenino (LOYOLA)",
+        "direccion": "Sin espacio Fisico",
+        "padron": null,
+        "latitud": null,
+        "longitud": null,
+        "propietari": null,
+        "superficie": null,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": "Velazquez Estefania",
+        "telefono": "3424288166",
+        "email": null,
+        "distrito": null,
+        "titular_te": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74202968861847,
+          -31.5674455494123
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 166,
+        "institucio": "Club Barca F.C.",
+        "direccion": "AV. GRAL. PAZ NRO 7041",
+        "padron": "128341",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "GILLIARD WALTER GUILLERMO",
+        "superficie": 210.23457,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74031065686126,
+          -31.568690568196036
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 167,
+        "institucio": "Club Santa Marta",
+        "direccion": "CHUBUT NRO 6600",
+        "padron": "130264",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC VEC CEFERINO NAMUNCURA",
+        "superficie": 7680,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72054159056879,
+          -31.575135454439895
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 168,
+        "institucio": "Club Estrella del Norte",
+        "direccion": "MISIONES NRO 5000",
+        "padron": "145268",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 20720,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74779737481013,
+          -31.583769521752274
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 169,
+        "institucio": "Club Los Troncos",
+        "direccion": "12 DE INFANT. NRO 6702",
+        "padron": "110068",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ASOC. TRAB. DE LA SANIDAD ARGENTINA",
+        "superficie": 95001,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.738730811651465,
+          -31.58474883217186
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 170,
+        "institucio": "Club Renacer",
+        "direccion": "CAMINO VIEJO ESPERANZA NRO 8100",
+        "padron": "106730",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 3574.197,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73367246429869,
+          -31.58533193049533
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 171,
+        "institucio": "Club Los Guerreros de E. Lopez",
+        "direccion": "D. MATHEU NRO 6151 MBK1 PB 1",
+        "padron": "136266",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "DIRECCION PROVINCIAL DE VIVIENDA Y URBANISMO",
+        "superficie": 91,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73753394992139,
+          -31.59299113293554
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 172,
+        "institucio": "Club Nsoqotecpi",
+        "direccion": "GDOR. MENCHACA NRO 7211",
+        "padron": "152387",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BOASSO JUAN",
+        "superficie": 65879,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.721375711892065,
+          -31.591787573253338
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 173,
+        "institucio": "Club Los Buhos",
+        "direccion": "12 DE INFANT. NRO 4800",
+        "padron": "175141",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "DIREC.PCIAL.DE VIVIENDA Y URBANISMO",
+        "superficie": 2654.99,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORTE",
+        "titular_te": "SUPERIOR GOBIERNO DE LA PROVINCIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73807084317622,
+          -31.60019625122601
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 174,
+        "institucio": "Club Social y Deportivo Los Fierritos",
+        "direccion": "JUAN P. LOPEZ NRO 6000",
+        "padron": "156731",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "VILLA ALFREDO JOSE",
+        "superficie": 6669,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NOROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7007992961605,
+          -31.586522040957327
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 175,
+        "institucio": "Club 29 de Abril",
+        "direccion": "DR. M. ZAVALLA NRO 8500",
+        "padron": "37695",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "BRAMBILLA ROSA",
+        "superficie": 25225.75,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.691501443403794,
+          -31.59397407395428
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 176,
+        "institucio": "Club Los Crack de Guadalupe",
+        "direccion": "ARISTOBULO DEL VALLE NRO 8050",
+        "padron": "39064",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "ESTADO NACIONAL ARGENTINO - D.N.V.",
+        "superficie": 8681,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "ESTE",
+        "titular_te": "ESTADO NACIONAL ARGENTINO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.678714995524615,
+          -31.588596140485205
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 177,
+        "institucio": "Club Nueva Esperanza",
+        "direccion": "SARMIENTO NRO 8950",
+        "padron": "173622",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 3557.82,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "NORESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.72354902828014,
+          -31.62266437192678
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 178,
+        "institucio": "Club San Francisco Solano",
+        "direccion": "AV. CIRCUNV. NRO 4480",
+        "padron": "173899",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 10186.19,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.729802605580545,
+          -31.635914555422406
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 179,
+        "institucio": "Club Villa Oculta",
+        "direccion": "PJE. MADEO NRO 3900",
+        "padron": "176442",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 276.663,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "OESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.726453115818714,
+          -31.646958076552924
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 180,
+        "institucio": "Club Defensores del Oeste",
+        "direccion": "Salta entre Pje. Alfondo y R.S.Peña",
+        "padron": null,
+        "latitud": null,
+        "longitud": null,
+        "propietari": "S/D",
+        "superficie": 5267.98,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "S/D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73852622564064,
+          -31.656087993113086
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 181,
+        "institucio": "Club San Lorenzo",
+        "direccion": "ENTRE RIOS NRO 4600",
+        "padron": "176829",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "MUNICIPALIDAD DE SANTA FE",
+        "superficie": 761.527,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "MUNICIPALIDAD DE SANTA FE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7343589868443,
+          -31.666556662691026
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 182,
+        "institucio": "Club Varajo",
+        "direccion": "AV. CIRCUNV. NRO 400",
+        "padron": "127018",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "CLUB GIMNASIA Y ESGRIMA DE SANTA FE",
+        "superficie": 43203,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "SUROESTE",
+        "titular_te": "PRIVADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clubes_relev_urbanismo.183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.623143139359954,
+          -31.632936549459416
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "id": 183,
+        "institucio": "Club Cuadreros de Colastine",
+        "direccion": "SIN NOMBRE NRO 5531",
+        "padron": "R0000874",
+        "latitud": null,
+        "longitud": null,
+        "propietari": "NCASABIANCA SANTOSULL",
+        "superficie": 6300,
+        "actividad_": null,
+        "otra_activ": null,
+        "referente": null,
+        "telefono": null,
+        "email": null,
+        "distrito": "LA COSTA",
+        "titular_te": "PRIVADO"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

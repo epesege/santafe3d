@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Fe 3D - Gemelo Digital Urbano | Municipalidad de Santa Fe</title>
+  <meta name="description" content="Gemelo Digital 3D de la Ciudad de Santa Fe. Visualizador urbanístico tridimensional, Código de Ordenamiento Urbano (ROU), Catastro, Gestión Hídrica y Servicios Públicos.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./img/HEADER_LogoSF-01.png">
+
+  <!-- Google Fonts: Encode Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- MapLibre GL JS v4.7.1 -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+  <!-- App Styles -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="app-container">
+
+    <!-- ==========================================
+         BARRA SUPERIOR (HEADER INSTITUCIONAL)
+         ========================================== -->
+    <header class="topbar">
+      <!-- Izquierda: Logo y Título -->
+      <div class="topbar-left">
+        <a href="#" class="brand-wrapper" id="brand-reset">
+          <img src="./img/HEADER_LogoSF-01.png" alt="Logo Santa Fe Capital" class="brand-logo" id="header-logo">
+          <div class="brand-divider"></div>
+          <div class="brand-titles">
+            <div class="brand-title">
+              SANTA FE <span class="tag-3d">3D</span>
+            </div>
+            <div class="brand-subtitle">Gemelo Digital Urbano</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Centro: Buscador de Parcelas, Direcciones y Sitios -->
+      <div class="topbar-center">
+        <div class="search-box">
+          <i class="ph ph-magnifying-glass search-icon"></i>
+          <input 
+            type="text" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Buscar por dirección, padrón catastral o distrito ROU (ej. Bv. Gálvez 1400, Padrón 142850)..." 
+            autocomplete="off"
+          />
+          <button id="search-clear" class="search-clear-btn" title="Limpiar búsqueda">
+            <i class="ph ph-x"></i>
+          </button>
+        </div>
+
+        <!-- Dropdown de Sugerencias -->
+        <div id="search-dropdown" class="search-dropdown">
+          <!-- Poblado dinámicamente con JS -->
+        </div>
+      </div>
+
+      <!-- Derecha: Acciones Rápidas Móviles -->
+      <div class="topbar-right">
+        <button id="btn-mobile-search-toggle" class="btn-mobile-search" title="Buscar en el mapa">
+          <i class="ph ph-magnifying-glass"></i>
+        </button>
+        <button id="btn-mobile-layers-toggle" class="btn-mobile-layers" title="Capas y Datos">
+          <i class="ph ph-stack"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- ==========================================
+         VIEWPORT PRINCIPAL (MAPA 3D Y PANELES)
+         ========================================== -->
+    <main class="main-viewport">
+
+      <!-- Overlay móvil para cerrar panel -->
+      <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+      <!-- Lienzo de MapLibre GL -->
+      <div id="map"></div>
+
+      <!-- ==========================================
+           PANEL LATERAL IZQUIERDO (CAPAS & HERRAMIENTAS)
+           ========================================== -->
+      <aside id="sidebar-left" class="sidebar-left">
+        <!-- Selector de Pestañas -->
+        <div class="sidebar-header">
+          <div class="sidebar-tabs">
+            <button class="tab-btn active" data-tab="tab-capas">
+              <i class="ph ph-stack"></i>
+              <span>Capas</span>
+            </button>
+            <button class="tab-btn" data-tab="tab-mapas">
+              <i class="ph ph-map-trifold"></i>
+              <span>Mapas Base</span>
+            </button>
+            <button class="tab-btn" data-tab="tab-kpis">
+              <i class="ph ph-chart-bar"></i>
+              <span>Ciudad</span>
+            </button>
+          </div>
+          <button id="sidebar-left-close" class="sidebar-close-mobile" title="Cerrar panel">
+            <i class="ph ph-x"></i>
+          </button>
+        </div>
+
+        <!-- Contenido de las Pestañas -->
+        <div class="sidebar-content">
+
+          <!-- Pestaña 1: Capas Temáticas de Santa Fe -->
+          <div id="tab-capas" class="tab-pane active">
+            <div id="layers-tree-container">
+              <!-- Se generará dinámicamente desde layers.js con las categorías oficiales de Santa Fe -->
+            </div>
+          </div>
+
+          <!-- Pestaña 2: Mapas Base -->
+          <div id="tab-mapas" class="tab-pane">
+            <div class="basemaps-grid" id="basemaps-container">
+              <!-- Se generará dinámicamente desde layers.js -->
+            </div>
+          </div>
+
+
+
+          <!-- Pestaña 4: Métricas del Gemelo Digital -->
+          <div id="tab-kpis" class="tab-pane">
+            <div class="kpis-list" id="kpis-container">
+              <!-- Se generará dinámicamente desde data.js -->
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+      <!-- ==========================================
+           PANEL LATERAL DERECHO (FICHA URBANÍSTICA 3D)
+           ========================================== -->
+      <aside id="sidebar-right" class="sidebar-right">
+        <!-- Cabecera de la Ficha Catastral -->
+        <div class="ficha-header">
+          <button id="ficha-close" class="ficha-close-btn" title="Cerrar ficha">
+            <i class="ph ph-x"></i>
+          </button>
+          <h2 id="ficha-title" class="ficha-title">Gral. Urquiza 3747</h2>
+          <div id="ficha-subtitle" class="ficha-subtitle">
+            <i class="ph ph-map-pin"></i>
+            <span id="ficha-barrio">Ciudad de Santa Fe</span>
+            <span class="bullet-sep">•</span>
+            <span id="ficha-manz-sec">Manzana 2624 · Secc. 01</span>
+          </div>
+
+          <!-- Identificador Catastral con botón de copiado rápido -->
+          <div class="ficha-nro-parcela-bar">
+            <div class="nro-parcela-info">
+              <span class="nro-parcela-lbl">Nro. Parcela:</span>
+              <span id="ficha-nro-parcela" class="nro-parcela-code">101105005400024</span>
+            </div>
+            <button id="btn-copy-parcela" class="btn-copy-parcela" title="Copiar Nro. de Parcela al portapapeles">
+              <i class="ph ph-copy" id="icon-copy-parcela"></i>
+              <span id="lbl-copy-parcela">Copiar</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Pestañas de la Ficha -->
+        <div class="ficha-tabs">
+          <button class="ficha-tab-btn active" data-fichatab="ftab-catastro">
+            <i class="ph ph-identification-card"></i> Catastro & Servicios
+          </button>
+          <button class="ficha-tab-btn" data-fichatab="ftab-urbanismo">
+            <i class="ph ph-buildings"></i> ROU & Alturas
+          </button>
+          <button class="ficha-tab-btn" data-fichatab="ftab-hidrico">
+            <i class="ph ph-drop"></i> Hídrico
+          </button>
+        </div>
+
+        <!-- Cuerpo de la Ficha -->
+        <div class="ficha-body">
+
+          <!-- Pestaña 1: Catastro Oficial & Servicios Públicos -->
+          <div id="ftab-catastro" class="ficha-tab-content active">
+
+            <!-- Métricas Catastrales Oficiales (Hero 2x2) -->
+            <div class="cadastral-stats-grid">
+              <div class="cadastral-stat-card">
+                <div class="stat-icon-wrapper teal">
+                  <i class="ph ph-frame-corners"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-label">Superficie</span>
+                  <div class="stat-value"><span id="ficha-superficie">1.132,06</span> <small>m²</small></div>
+                </div>
+              </div>
+
+              <div class="cadastral-stat-card">
+                <div class="stat-icon-wrapper navy">
+                  <i class="ph ph-calendar-blank"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-label">F./Vigencia</span>
+                  <div class="stat-value" id="ficha-vigencia">1997-01-01</div>
+                </div>
+              </div>
+
+              <div class="cadastral-stat-card">
+                <div class="stat-icon-wrapper gold">
+                  <i class="ph ph-coins"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-label">Z. Inmobiliaria</span>
+                  <div class="stat-value" id="ficha-zona-val">Zona 13</div>
+                </div>
+              </div>
+
+              <div class="cadastral-stat-card">
+                <div class="stat-icon-wrapper blue">
+                  <i class="ph ph-file-text"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-label">Padrón Principal</span>
+                  <div class="stat-value" id="ficha-padron-main">142850</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Grilla Oficial de Servicios Públicos (6 campos del portal) -->
+            <div class="section-title-row">
+              <div class="section-title">
+                <i class="ph ph-check-circle" style="color: var(--sf-teal-primary);"></i>
+                <span>Servicios Públicos Oficiales</span>
+              </div>
+              <span class="section-badge-verified">Relevamiento SCIT</span>
+            </div>
+
+            <div class="official-services-grid" id="official-services-grid">
+              <!-- 1. Agua Potable -->
+              <div class="official-service-card" id="srv-agua">
+                <div class="service-icon-box">
+                  <i class="ph ph-drop"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Agua Potable</span>
+                  <span class="service-provider">Red ASSA</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-agua">
+                  <i class="ph ph-check"></i> TIENE
+                </div>
+              </div>
+
+              <!-- 2. Gas Natural -->
+              <div class="official-service-card" id="srv-gas">
+                <div class="service-icon-box">
+                  <i class="ph ph-flame"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Gas Natural</span>
+                  <span class="service-provider">Litoral Gas</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-gas">
+                  <i class="ph ph-check"></i> TIENE
+                </div>
+              </div>
+
+              <!-- 3. Alumbrado Público -->
+              <div class="official-service-card" id="srv-alum">
+                <div class="service-icon-box">
+                  <i class="ph ph-lightbulb"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Alumbrado</span>
+                  <span class="service-provider">Red Municipal</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-alum" title="Con Columna">
+                  <i class="ph ph-check"></i> COLUMNA
+                </div>
+              </div>
+
+              <!-- 4. Red Cloacal -->
+              <div class="official-service-card" id="srv-cloac">
+                <div class="service-icon-box">
+                  <i class="ph ph-waves"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Red Cloacal</span>
+                  <span class="service-provider">Red ASSA</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-cloac" title="Tiene Servicio">
+                  <i class="ph ph-check"></i> TIENE
+                </div>
+              </div>
+
+              <!-- 5. Recolección de Residuos -->
+              <div class="official-service-card" id="srv-reco">
+                <div class="service-icon-box">
+                  <i class="ph ph-trash"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Recolección</span>
+                  <span class="service-provider">Higiene Urbana</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-reco" title="Recolección Diaria">
+                  <i class="ph ph-check"></i> TIENE
+                </div>
+              </div>
+
+              <!-- 6. Tipo de Calzada -->
+              <div class="official-service-card" id="srv-calzada">
+                <div class="service-icon-box">
+                  <i class="ph ph-road-horizon"></i>
+                </div>
+                <div class="service-details">
+                  <span class="service-name">Pavimento</span>
+                  <span class="service-provider">Calzada Urbana</span>
+                </div>
+                <div class="service-status-pill status-tiene" id="srv-status-calzada" title="Hormigón Bueno">
+                  <i class="ph ph-check"></i> HORMIGÓN
+                </div>
+              </div>
+            </div>
+
+            <!-- Tabla de Unidades Funcionales / PHs (Subparcelas) -->
+            <div class="section-title-row" style="margin-top: 18px;">
+              <div class="section-title">
+                <i class="ph ph-squares-four" style="color: var(--sf-teal-primary);"></i>
+                <span id="ph-units-title">Unidades Funcionales (PH)</span>
+              </div>
+              <span class="section-count-badge" id="ph-units-count">1 unidad</span>
+            </div>
+
+            <div class="ph-table-container">
+              <div class="ph-search-bar" id="ph-search-bar" style="display: none;">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" id="ph-filter-input" placeholder="Filtrar por padrón, unidad o plano..." />
+              </div>
+
+              <div class="ph-table-scroll">
+                <table class="ph-units-table" id="ph-units-table">
+                  <thead>
+                    <tr>
+                      <th>Padrón</th>
+                      <th>Nomen.</th>
+                      <th>Plano</th>
+                      <th>Domicilio</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ph-units-tbody">
+                    <!-- Poblado dinámicamente -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pestaña 2: Urbanismo & ROU -->
+          <div id="ftab-urbanismo" class="ficha-tab-content">
+
+            <!-- Gráfico Comparativo de Alturas -->
+            <div class="height-comparison-box">
+              <div class="height-bars-title">
+                <span>Relación de Alturas ROU</span>
+                <span id="ficha-status-label" style="color: var(--sf-teal-primary); font-size: 0.72rem;">Capacidad Remanente</span>
+              </div>
+
+              <!-- Barra Altura Actual -->
+              <div class="height-bar-row">
+                <div class="height-bar-label">
+                  <span>Altura Edificada Estimada</span>
+                  <span id="ficha-h-actual" style="color: var(--sf-blue-navy); font-weight: 700;">12.4 m (4 pisos)</span>
+                </div>
+                <div class="height-bar-container">
+                  <div id="bar-fill-actual" class="height-bar-fill-actual" style="width: 35%;"></div>
+                </div>
+              </div>
+
+              <!-- Barra Altura Permitida ROU -->
+              <div class="height-bar-row">
+                <div class="height-bar-label">
+                  <span>Altura Máxima Permitida (ROU)</span>
+                  <span id="ficha-h-max" style="color: var(--sf-teal-primary); font-weight: 700;">36.0 m (12 pisos)</span>
+                </div>
+                <div class="height-bar-container">
+                  <div id="bar-fill-max" class="height-bar-fill-max" style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Métricas Urbanísticas Clave (FOT, FOS, Superficie) -->
+            <div class="metrics-grid-2x2">
+              <div class="metric-cell">
+                <div class="metric-cell-label">FOT Admisible</div>
+                <div id="ficha-fot" class="metric-cell-value">3.0</div>
+                <div class="metric-cell-sub">Factor Ocup. Total</div>
+              </div>
+              <div class="metric-cell">
+                <div class="metric-cell-label">FOS Máximo</div>
+                <div id="ficha-fos" class="metric-cell-value">0.85</div>
+                <div class="metric-cell-sub">85% Ocupación Suelo</div>
+              </div>
+              <div class="metric-cell">
+                <div class="metric-cell-label">Sup. de Terreno</div>
+                <div id="ficha-sup-parcela" class="metric-cell-value">1.132 m²</div>
+                <div class="metric-cell-sub">Base Catastral</div>
+              </div>
+              <div class="metric-cell">
+                <div class="metric-cell-label">Capacidad Edificable</div>
+                <div id="ficha-sup-edificable" class="metric-cell-value">3.396 m²</div>
+                <div id="ficha-sup-remanente" class="metric-cell-sub">+1.200 m² remanentes</div>
+              </div>
+            </div>
+
+            <!-- Carácter del Distrito ROU -->
+            <div class="callout-box info">
+              <i class="ph ph-info"></i>
+              <div>
+                <strong>Regulación del Distrito ROU:</strong>
+                <p id="ficha-distrito-desc">Área central de densificación con mixtura de usos comerciales, administrativos y residenciales en altura.</p>
+              </div>
+            </div>
+
+            <div id="ficha-normativa-link-box" style="margin-top: 10px;">
+              <a href="http://sidom.santafeciudad.gov.ar/sidom/index.html?did=zP7LZuxcsJLeDm1wRuDblpl71m-6tC7G" target="_blank" rel="noopener noreferrer" class="btn-normativa-link" id="ficha-normativa-link">
+                <i class="ph ph-book-open"></i>
+                <span id="ficha-normativa-text">Consultar Ordenanza Nº 11.748 en SIDOM</span>
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Pestaña 3: Gestión Hídrica & Ambiente -->
+          <div id="ftab-hidrico" class="ficha-tab-content">
+            <div class="metrics-grid-2x2">
+              <div class="metric-cell">
+                <div class="metric-cell-label">Cota Terreno IGM</div>
+                <div id="ficha-cota" class="metric-cell-value">15.8 m</div>
+                <div class="metric-cell-sub">Sobre nivel del mar</div>
+              </div>
+              <div class="metric-cell">
+                <div class="metric-cell-label">Cuenca Pluvial</div>
+                <div id="ficha-cuenca" class="metric-cell-value" style="font-size: 0.85rem;">Cuenca Central</div>
+                <div class="metric-cell-sub">Desagüe Troncal</div>
+              </div>
+            </div>
+
+            <div class="callout-box info">
+              <i class="ph ph-shield-check"></i>
+              <div>
+                <strong>Seguridad Hídrica:</strong>
+                <p id="ficha-seguridad-hidrica">Sector protegido por terraplén de defensas costeras y red de bombeo pluvial municipal hacia los ríos Salado y Paraná.</p>
+              </div>
+            </div>
+
+            <div class="metric-cell" style="margin-bottom: 12px;">
+              <div class="metric-cell-label">Arbolado en Vereda & Entorno</div>
+              <div id="ficha-arbolado" style="font-size: 0.84rem; font-weight: 600; color: var(--sf-blue-navy); margin-top: 4px;">
+                Especies autóctonas (Lapacho / Jacarandá) relevadas en vereda
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer con Acciones -->
+        <div class="ficha-footer">
+          <button id="btn-export-ficha" class="btn-action-outline">
+            <i class="ph ph-file-pdf"></i>
+            <span>Certificado ROU</span>
+          </button>
+          <button id="btn-report-muni" class="btn-action-outline">
+            <i class="ph ph-phone-call"></i>
+            <span>0800 Municipal</span>
+          </button>
+        </div>
+      </aside>
+
+
+
+      <!-- ==========================================
+           CONTROLES DE MAPA Y NAVEGACIÓN 3D
+           ========================================== -->
+      <div class="map-controls-group">
+        <button id="btn-toggle-sidebar" class="map-control-btn active" title="Alternar panel de capas y datos">
+          <i class="ph ph-stack"></i>
+        </button>
+        <button id="btn-toggle-3d" class="map-control-btn" title="Alternar vista 2D / 3D">
+          <span id="label-mode-3d" style="font-size: 11px; font-weight: 800;">3D</span>
+        </button>
+        <button id="btn-orbit" class="map-control-btn" title="Modo sobrevuelo panorámico 360°">
+          <i class="ph ph-arrows-clockwise"></i>
+        </button>
+        <div class="map-control-divider"></div>
+        <button id="ctrl-zoom-in" class="map-control-btn" title="Acercar (+)">
+          <i class="ph ph-plus"></i>
+        </button>
+        <button id="ctrl-zoom-out" class="map-control-btn" title="Alejar (-)">
+          <i class="ph ph-minus"></i>
+        </button>
+        <button id="ctrl-compass" class="map-control-btn" title="Restablecer orientación al Norte">
+          <i class="ph ph-compass compass-needle" id="compass-icon"></i>
+        </button>
+        <div class="map-control-divider"></div>
+        <button id="btn-fullscreen" class="map-control-btn" title="Pantalla completa">
+          <i class="ph ph-arrows-out"></i>
+        </button>
+      </div>
+
+
+
+    </main>
+
+    <!-- ==========================================
+         MODAL: CERTIFICADO URBANÍSTICO ROU
+         ========================================== -->
+    <div id="modal-certificate" class="modal-backdrop">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="modal-title">
+            <i class="ph ph-certificate"></i>
+            <span>Certificado Urbanístico Preliminar (ROU)</span>
+          </div>
+          <button class="modal-close" id="btn-close-cert">&times;</button>
+        </div>
+        <div class="modal-body" id="certificate-content">
+          <!-- Poblado dinámicamente con los datos de la parcela seleccionada -->
+        </div>
+        <div class="modal-footer">
+          <button class="btn-tool" id="btn-print-cert">
+            <i class="ph ph-printer"></i>
+            <span>Imprimir / Guardar PDF</span>
+          </button>
+          <button class="btn-tool active" id="btn-dismiss-cert">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
+         CONTENEDOR DE TOASTS
+         ========================================== -->
+    <div id="toast-container" class="toast-container"></div>
+
+  </div>
+
+  <!-- Scripts de la Aplicación -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
